@@ -1,0 +1,18 @@
+agents:
+  label: Agents
+  description: AI agents, tool use, planning, and multi-agent systems
+efficient-inference:
+  label: Efficient Inference
+  description: Quantization, distillation, speculative decoding, and inference optimization
+robotics:
+  label: Robotics
+  description: Robot learning, manipulation, locomotion, and embodied AI
+llm:
+  label: LLM
+  description: Large language models
+multimodal:
+  label: Multimodal
+  description: Vision-language models and multimodal learning
+reinforcement-learning:
+  label: RL
+  description: Reinforcement learning and reward modeling
