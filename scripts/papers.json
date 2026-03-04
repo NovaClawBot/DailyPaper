@@ -1,5 +1,1780 @@
 [
   {
+    "id": "2603.03280v1",
+    "title": "How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference",
+    "authors": [
+      "Toru Lin",
+      "Shuying Deng",
+      "Zhao-Heng Yin",
+      "Pieter Abbeel",
+      "Jitendra Malik"
+    ],
+    "author_count": 5,
+    "summary": "Many essential manipulation tasks - such as food preparation, surgery, and craftsmanship - remain intractable for autonomous robots. These tasks are characterized not only by contact-rich, force-sensitive dynamics, but also by their \"implicit\" success criteria: unlike pick-and-place, task quality in these domains is continuous and subjective (e.g. how well a potato is peeled), making quantitative evaluation and reward engineering difficult. We present a learning framework for such tasks, using peeling with a knife as a representative example. Our approach follows a two-stage pipeline: first...",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "published": "2026-03-03T18:59:32Z",
+    "updated": "2026-03-03T18:59:32Z",
+    "abs_url": "https://arxiv.org/abs/2603.03280v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03280v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03279v1",
+    "title": "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation",
+    "authors": [
+      "Xialin He",
+      "Sirui Xu",
+      "Xinyao Li",
+      "Runpei Dong",
+      "Liuyu Bian"
+    ],
+    "author_count": 7,
+    "summary": "Achieving autonomous and versatile whole-body loco-manipulation remains a central barrier to making humanoids practically useful. Yet existing approaches are fundamentally constrained: retargeted data are often scarce or low-quality; methods struggle to scale to large skill repertoires; and, most importantly, they rely on tracking predefined motion references rather than generating behavior from perception and high-level task specifications. To address these limitations, we propose ULTRA, a unified framework with two key components. First, we introduce a physics-driven neural retargeting al...",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "published": "2026-03-03T18:59:29Z",
+    "updated": "2026-03-03T18:59:29Z",
+    "abs_url": "https://arxiv.org/abs/2603.03279v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03279v1",
+    "tags": [
+      "robotics",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.03258v1",
+    "title": "Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals",
+    "authors": [
+      "Achyutha Menon",
+      "Magnus Saebo",
+      "Tyler Crosse",
+      "Spencer Gibson",
+      "Eyon Jang"
+    ],
+    "author_count": 6,
+    "summary": "The accelerating adoption of language models (LMs) as agents for deployment in long-context tasks motivates a thorough understanding of goal drift: agents' tendency to deviate from an original objective. While prior-generation language model agents have been shown to be susceptible to drift, the extent to which drift affects more recent models remains unclear. In this work, we provide an updated characterization of the extent and causes of goal drift. We investigate drift in state-of-the-art models within a simulated stock-trading environment (Arike et al., 2025). These models are largely s...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T18:50:59Z",
+    "updated": "2026-03-03T18:50:59Z",
+    "abs_url": "https://arxiv.org/abs/2603.03258v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03258v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03251v1",
+    "title": "Speculative Speculative Decoding",
+    "authors": [
+      "Tanishq Kumar",
+      "Tri Dao",
+      "Avner May"
+    ],
+    "author_count": 3,
+    "summary": "Autoregressive decoding is bottlenecked by its sequential nature. Speculative decoding has become a standard way to accelerate inference by using a fast draft model to predict upcoming tokens from a slower target model, and then verifying them in parallel with a single target model forward pass. However, speculative decoding itself relies on a sequential dependence between speculation and verification. We introduce speculative speculative decoding (SSD) to parallelize these operations. While a verification is ongoing, the draft model predicts likely verification outcomes and prepares specul...",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2026-03-03T18:41:32Z",
+    "updated": "2026-03-03T18:41:32Z",
+    "abs_url": "https://arxiv.org/abs/2603.03251v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03251v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.03243v1",
+    "title": "HoMMI: Learning Whole-Body Mobile Manipulation from Human Demonstrations",
+    "authors": [
+      "Xiaomeng Xu",
+      "Jisang Park",
+      "Han Zhang",
+      "Eric Cousineau",
+      "Aditya Bhat"
+    ],
+    "author_count": 8,
+    "summary": "We present Whole-Body Mobile Manipulation Interface (HoMMI), a data collection and policy learning framework that learns whole-body mobile manipulation directly from robot-free human demonstrations. We augment UMI interfaces with egocentric sensing to capture the global context required for mobile manipulation, enabling portable, robot-free, and scalable data collection. However, naively incorporating egocentric sensing introduces a larger human-to-robot embodiment gap in both observation and action spaces, making policy transfer difficult. We explicitly bridge this gap with a cross-embodim...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T18:36:49Z",
+    "updated": "2026-03-03T18:36:49Z",
+    "abs_url": "https://arxiv.org/abs/2603.03243v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03243v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03234v1",
+    "title": "Guiding Sparse Neural Networks with Neurobiological Principles to Elicit Biologically Plausible Representations",
+    "authors": [
+      "Patrick Inoue",
+      "Florian R\u00f6hrbein",
+      "Andreas Knoblauch"
+    ],
+    "author_count": 3,
+    "summary": "While deep neural networks (DNNs) have achieved remarkable performance in tasks such as image recognition, they often struggle with generalization, learning from few examples, and continuous adaptation - abilities inherent in biological neural systems. These challenges arise due to DNNs' failure to emulate the efficient, adaptive learning mechanisms of biological networks. To address these issues, we explore the integration of neurobiologically inspired assumptions in neural network learning. This study introduces a biologically inspired learning rule that naturally integrates neurobiologic...",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2026-03-03T18:27:37Z",
+    "updated": "2026-03-03T18:27:37Z",
+    "abs_url": "https://arxiv.org/abs/2603.03234v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03234v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.03233v1",
+    "title": "AI-for-Science Low-code Platform with Bayesian Adversarial Multi-Agent Framework",
+    "authors": [
+      "Zihang Zeng",
+      "Jiaquan Zhang",
+      "Pengze Li",
+      "Yuan Qi",
+      "Xi Chen"
+    ],
+    "author_count": 5,
+    "summary": "Large Language Models (LLMs) demonstrate potentials for automating scientific code generation but face challenges in reliability, error propagation in multi-agent workflows, and evaluation in domains with ill-defined success metrics. We present a Bayesian adversarial multi-agent framework specifically designed for AI for Science (AI4S) tasks in the form of a Low-code Platform (LCP). Three LLM-based agents are coordinated under the Bayesian framework: a Task Manager that structures user inputs into actionable plans and adaptive test cases, a Code Generator that produces candidate solutions, ...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T18:25:00Z",
+    "updated": "2026-03-03T18:25:00Z",
+    "abs_url": "https://arxiv.org/abs/2603.03233v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03233v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03212v1",
+    "title": "NeuroSkill(tm): Proactive Real-Time Agentic System Capable of Modeling Human State of Mind",
+    "authors": [
+      "Nataliya Kosmyna",
+      "Eugene Hauptmann"
+    ],
+    "author_count": 2,
+    "summary": "Real-time proactive agentic system, capable of modeling Human State of Mind, using foundation EXG model and text embeddings model, running fully offline on the edge. Unlike all previously known systems, the NeuroSkill(tm) system leverages SKILL.md description of Human's State of Mind via API and CLI provided by the system, directly from the Brain-Computer Interface (BCI) devices, which records Human biophysical and brain signals. Our custom harness - NeuroLoop(tm) - utilizes all of the above to run agentic flow that manages to engage with the Human on multiple cognitive and affective levels...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T18:06:42Z",
+    "updated": "2026-03-03T18:06:42Z",
+    "abs_url": "https://arxiv.org/abs/2603.03212v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03212v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03205v1",
+    "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+    "authors": [
+      "Aradhye Agarwal",
+      "Gurdit Siyan",
+      "Yash Pandya",
+      "Joykirat Singh",
+      "Akshay Nambi"
+    ],
+    "author_count": 6,
+    "summary": "Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimized for static generation and task completion, break down in these settings due to sequential decision-making, adversarial tool feedback, and overconfident intermediate reasoning. We introduce MOSAIC, a post-training framework that aligns agents for safe multi-step tool use by making safety decisio...",
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2026-03-03T17:59:35Z",
+    "updated": "2026-03-03T17:59:35Z",
+    "abs_url": "https://arxiv.org/abs/2603.03205v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03205v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03202v1",
+    "title": "Code2Math: Can Your Code Agent Effectively Evolve Math Problems Through Exploration?",
+    "authors": [
+      "Dadi Guo",
+      "Yuejin Xie",
+      "Qingyu Liu",
+      "Jiayu Liu",
+      "Zhiyuan Fan"
+    ],
+    "author_count": 10,
+    "summary": "As large language models (LLMs) advance their mathematical capabilities toward the IMO level, the scarcity of challenging, high-quality problems for training and evaluation has become a significant bottleneck. Simultaneously, recent code agents have demonstrated sophisticated skills in agentic coding and reasoning, suggesting that code execution can serve as a scalable environment for mathematical experimentation. In this paper, we investigate the potential of code agents to autonomously evolve existing math problems into more complex variations. We introduce a multi-agent framework designe...",
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2026-03-03T17:55:10Z",
+    "updated": "2026-03-03T17:55:10Z",
+    "abs_url": "https://arxiv.org/abs/2603.03202v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03202v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03198v1",
+    "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+    "authors": [
+      "Ziyang Gong",
+      "Zehang Luo",
+      "Anke Tang",
+      "Zhe Liu",
+      "Shi Fu"
+    ],
+    "author_count": 24,
+    "summary": "Universal embodied intelligence demands robust generalization across heterogeneous embodiments, such as autonomous driving, robotics, and unmanned aerial vehicles (UAVs). However, existing embodied brain in training a unified model over diverse embodiments frequently triggers long-tail data, gradient interference, and catastrophic forgetting, making it notoriously difficult to balance universal generalization with domain-specific proficiency. In this report, we introduce ACE-Brain-0, a generalist foundation brain that unifies spatial reasoning, autonomous driving, and embodied manipulation ...",
+    "categories": [
+      "cs.RO",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "published": "2026-03-03T17:53:45Z",
+    "updated": "2026-03-03T17:53:45Z",
+    "abs_url": "https://arxiv.org/abs/2603.03198v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03198v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03194v1",
+    "title": "BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?",
+    "authors": [
+      "Guoxin Chen",
+      "Fanzhe Meng",
+      "Jiale Zhao",
+      "Minghao Li",
+      "Daixuan Cheng"
+    ],
+    "author_count": 15,
+    "summary": "Current benchmarks for code agents primarily assess narrow, repository-specific fixes, overlooking critical real-world challenges such as cross-repository reasoning, domain-specialized problem solving, dependency-driven migration, and full-repository generation. To address this gap, we introduce BeyondSWE, a comprehensive benchmark that broadens existing evaluations along two axes - resolution scope and knowledge scope - using 500 real-world instances across four distinct settings. Experimental results reveal a significant capability gap: even frontier models plateau below 45% success, and ...",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "published": "2026-03-03T17:52:01Z",
+    "updated": "2026-03-03T17:52:01Z",
+    "abs_url": "https://arxiv.org/abs/2603.03194v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03194v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03181v1",
+    "title": "Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery",
+    "authors": [
+      "Yichang Liu",
+      "Tianyu Wang",
+      "Ziyi Ye",
+      "Yawei Li",
+      "Yu-Gang Jiang"
+    ],
+    "author_count": 7,
+    "summary": "We present a framework that integrates EEG-based visual and motor imagery (VI/MI) with robotic control to enable real-time, intention-driven grasping and placement. Motivated by the promise of BCI-driven robotics to enhance human-robot interaction, this system bridges neural signals with physical control by deploying offline-pretrained decoders in a zero-shot manner within an online streaming pipeline. This establishes a dual-channel intent interface that translates visual intent into robotic actions, with VI identifying objects for grasping and MI determining placement poses, enabling intu...",
+    "categories": [
+      "cs.RO",
+      "eess.SP"
+    ],
+    "published": "2026-03-03T17:41:42Z",
+    "updated": "2026-03-03T17:41:42Z",
+    "abs_url": "https://arxiv.org/abs/2603.03181v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03181v1",
+    "tags": [
+      "robotics",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.03148v1",
+    "title": "From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?",
+    "authors": [
+      "Shinas Shaji",
+      "Fabian Huppertz",
+      "Alex Mitrevski",
+      "Sebastian Houben"
+    ],
+    "author_count": 4,
+    "summary": "In order to flexibly act in an everyday environment, a robotic agent needs a variety of cognitive capabilities that enable it to reason about plans and perform execution recovery. Large language models (LLMs) have been shown to demonstrate emergent cognitive aspects, such as reasoning and language understanding; however, the ability to control embodied robotic agents requires reliably bridging high-level language to low-level functionalities for perception and control. In this paper, we investigate the extent to which an LLM can serve as a core component for planning and execution reasoning...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T16:36:06Z",
+    "updated": "2026-03-03T16:36:06Z",
+    "abs_url": "https://arxiv.org/abs/2603.03148v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03148v1",
+    "tags": [
+      "agents",
+      "robotics",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.03147v1",
+    "title": "Agentic AI-based Coverage Closure for Formal Verification",
+    "authors": [
+      "Sivaram Pothireddypalli",
+      "Ashish Raman",
+      "Deepak Narayan Gadde",
+      "Aman Kumar"
+    ],
+    "author_count": 4,
+    "summary": "Coverage closure is a critical requirement in Integrated Chip (IC) development process and key metric for verification sign-off. However, traditional exhaustive approaches often fail to achieve full coverage within project timelines. This study presents an agentic AI-driven workflow that utilizes Large Language Model (LLM)-enabled Generative AI (GenAI) to automate coverage analysis for formal verification, identify coverage gaps, and generate the required formal properties. The framework accelerates verification efficiency by systematically addressing coverage holes. Benchmarking open-sourc...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T16:35:03Z",
+    "updated": "2026-03-03T16:35:03Z",
+    "abs_url": "https://arxiv.org/abs/2603.03147v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03147v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03142v1",
+    "title": "APRES: An Agentic Paper Revision and Evaluation System",
+    "authors": [
+      "Bingchen Zhao",
+      "Jenny Zhang",
+      "Chenxi Whitehouse",
+      "Minqi Jiang",
+      "Michael Shvartsman"
+    ],
+    "author_count": 11,
+    "summary": "Scientific discoveries must be communicated clearly to realize their full potential. Without effective communication, even the most groundbreaking findings risk being overlooked or misunderstood. The primary way scientists communicate their work and receive feedback from the community is through peer review. However, the current system often provides inconsistent feedback between reviewers, ultimately hindering the improvement of a manuscript and limiting its potential impact. In this paper, we introduce a novel method APRES powered by Large Language Models (LLMs) to update a scientific pap...",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T16:29:13Z",
+    "updated": "2026-03-03T16:29:13Z",
+    "abs_url": "https://arxiv.org/abs/2603.03142v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03142v1",
+    "tags": [
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.03140v1",
+    "title": "How to Model AI Agents as Personas?: Applying the Persona Ecosystem Playground to 41,300 Posts on Moltbook for Behavioral Insights",
+    "authors": [
+      "Danial Amin",
+      "Joni Salminen",
+      "Bernard J. Jansen"
+    ],
+    "author_count": 3,
+    "summary": "AI agents are increasingly active on social media platforms, generating content and interacting with one another at scale. Yet the behavioral diversity of these agents remains poorly understood, and methods for characterizing distinct agent types and studying how they engage with shared topics are largely absent from current research. We apply the Persona Ecosystem Playground (PEP) to Moltbook, a social platform for AI agents, to generate and validate conversational personas from 41,300 posts using k-means clustering and retrieval-augmented generation. Cross-persona validation confirms that...",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T16:26:44Z",
+    "updated": "2026-03-03T16:26:44Z",
+    "abs_url": "https://arxiv.org/abs/2603.03140v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03140v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03138v1",
+    "title": "Look Forward to Walk Backward: Efficient Terrain Memory for Backward Locomotion with Forward Vision",
+    "authors": [
+      "Shixin Luo",
+      "Songbo Li",
+      "Yuan Hao",
+      "Yaqi Wang",
+      "Jun Zheng"
+    ],
+    "author_count": 7,
+    "summary": "Legged robots with egocentric forward-facing depth cameras can couple exteroception and proprioception to achieve robust forward agility on complex terrain. When these robots walk backward, the forward-only field of view provides no preview. Purely proprioceptive controllers can remain stable on moderate ground when moving backward but cannot fully exploit the robot's capabilities on complex terrain and must collide with obstacles. We present Look Forward to Walk Backward (LF2WB), an efficient terrain-memory locomotion framework that uses forward egocentric depth and proprioception to write...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T16:24:32Z",
+    "updated": "2026-03-03T16:24:32Z",
+    "abs_url": "https://arxiv.org/abs/2603.03138v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03138v1",
+    "tags": [
+      "efficient-inference",
+      "robotics",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.03137v1",
+    "title": "RL-Based Coverage Path Planning for Deformable Objects on 3D Surfaces",
+    "authors": [
+      "Yuhang Zhang",
+      "Jinming Ma",
+      "Feng Wu"
+    ],
+    "author_count": 3,
+    "summary": "Currently, manipulation tasks for deformable objects often focus on activities like folding clothes, handling ropes, and manipulating bags. However, research on contact-rich tasks involving deformable objects remains relatively underdeveloped. When humans use cloth or sponges to wipe surfaces, they rely on both vision and tactile feedback. Yet, current algorithms still face challenges with issues like occlusion, while research on tactile perception for manipulation is still evolving. Tasks such as covering surfaces with deformable objects demand not only perception but also precise robotic ...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T16:16:06Z",
+    "updated": "2026-03-03T16:16:06Z",
+    "abs_url": "https://arxiv.org/abs/2603.03137v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03137v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03116v1",
+    "title": "Beyond Task Completion: Revealing Corrupt Success in LLM Agents through Procedure-Aware Evaluation",
+    "authors": [
+      "Hongliu Cao",
+      "Ilias Driouich",
+      "Eoin Thomas"
+    ],
+    "author_count": 3,
+    "summary": "Large Language Model (LLM)-based agents are increasingly adopted in high-stakes settings, but current benchmarks evaluate mainly whether a task was completed, not how. We introduce Procedure-Aware Evaluation (PAE), a framework that formalizes agent procedures as structured observations and exposes consistency relationships between what agents observe, communicate, and execute. PAE evaluates agents along complementary axes (Utility, Efficiency, Interaction Quality, Procedural Integrity) and applies multi-dimensional gating that categorically disqualifies corrupt outcomes. Evaluating state-of...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T15:47:41Z",
+    "updated": "2026-03-03T15:47:41Z",
+    "abs_url": "https://arxiv.org/abs/2603.03116v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03116v1",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.03078v1",
+    "title": "RAPO: Expanding Exploration for LLM Agents via Retrieval-Augmented Policy Optimization",
+    "authors": [
+      "Siwei Zhang",
+      "Yun Xiong",
+      "Xi Chen",
+      "Zi'an Jia",
+      "Renhong Huang"
+    ],
+    "author_count": 7,
+    "summary": "Agentic Reinforcement Learning (Agentic RL) has shown remarkable potential in large language model-based (LLM) agents. These works can empower LLM agents to tackle complex tasks via multi-step, tool-integrated reasoning. However, an inherent limitation of existing Agentic RL methods is their reliance on a pure on-policy paradigm for exploration, restricting exploration to the agent's self-generated outputs and preventing the discovery of new reasoning perspectives for further improvement. While recent efforts incorporate auxiliary off-policy signals to enhance exploration, they typically ut...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T15:23:42Z",
+    "updated": "2026-03-03T15:23:42Z",
+    "abs_url": "https://arxiv.org/abs/2603.03078v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03078v1",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.03067v1",
+    "title": "CMoE: Contrastive Mixture of Experts for Motion Control and Terrain Adaptation of Humanoid Robots",
+    "authors": [
+      "Shihao Ma",
+      "Hongjin Chen",
+      "Zijun Xu",
+      "Yi Zhao",
+      "Ke Wu"
+    ],
+    "author_count": 9,
+    "summary": "For effective deployment in real-world environments, humanoid robots must autonomously navigate a diverse range of complex terrains with abrupt transitions. While the Vanilla mixture of experts (MoE) framework is theoretically capable of modeling diverse terrain features, in practice, the gating network exhibits nearly uniform expert activations across different terrains, weakening the expert specialization and limiting the model's expressive power. To address this limitation, we introduce CMoE, a novel single-stage reinforcement learning framework that integrates contrastive learning to re...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T15:06:30Z",
+    "updated": "2026-03-03T15:06:30Z",
+    "abs_url": "https://arxiv.org/abs/2603.03067v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03067v1",
+    "tags": [
+      "efficient-inference",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03052v1",
+    "title": "Architectural HRI: Towards a Robotic Paradigm Shift in Human-Building Interaction",
+    "authors": [
+      "Alex Binh Vinh Duc Nguyen"
+    ],
+    "author_count": 1,
+    "summary": "Recent advances in sensing, communication, interfaces, control, and robotics are expanding Human-Building Interaction (HBI) beyond adaptive building services and facades toward the physical actuation of architectural space. In parallel, research in robotic furniture, swarm robotics, and shape-changing spaces shows that architectural elements can now be robotically augmented to move, reconfigure, and adapt space. We propose that these advances promise a paradigm shift in HBI, in which multiple building layers physically adapt in synchrony to support occupant needs and sustainability goals mo...",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "published": "2026-03-03T14:51:23Z",
+    "updated": "2026-03-03T14:51:23Z",
+    "abs_url": "https://arxiv.org/abs/2603.03052v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03052v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03031v1",
+    "title": "Step-Level Sparse Autoencoder for Reasoning Process Interpretation",
+    "authors": [
+      "Xuan Yang",
+      "Jiayu Liu",
+      "Yuhang Lai",
+      "Hao Xu",
+      "Zhenya Huang"
+    ],
+    "author_count": 6,
+    "summary": "Large Language Models (LLMs) have achieved strong complex reasoning capabilities through Chain-of-Thought (CoT) reasoning. However, their reasoning patterns remain too complicated to analyze. While Sparse Autoencoders (SAEs) have emerged as a powerful tool for interpretability, existing approaches predominantly operate at the token level, creating a granularity mismatch when capturing more critical step-level information, such as reasoning direction and semantic transitions. In this work, we propose step-level sparse autoencoder (SSAE), which serves as an analytical tool to disentangle diff...",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2026-03-03T14:25:02Z",
+    "updated": "2026-03-03T14:25:02Z",
+    "abs_url": "https://arxiv.org/abs/2603.03031v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03031v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.03024v1",
+    "title": "MA-CoNav: A Master-Slave Multi-Agent Framework with Hierarchical Collaboration and Dual-Level Reflection for Long-Horizon Embodied VLN",
+    "authors": [
+      "Ling Luo",
+      "Qianqian Bai"
+    ],
+    "author_count": 2,
+    "summary": "Vision-Language Navigation (VLN) aims to empower robots with the ability to perform long-horizon navigation in unfamiliar environments based on complex linguistic instructions. Its success critically hinges on establishing an efficient ``language-understanding -- visual-perception -- embodied-execution'' closed loop. Existing methods often suffer from perceptual distortion and decision drift in complex, long-distance tasks due to the cognitive overload of a single agent. Inspired by distributed cognition theory, this paper proposes MA-CoNav, a Multi-Agent Collaborative Navigation framework....",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T14:16:02Z",
+    "updated": "2026-03-03T14:16:02Z",
+    "abs_url": "https://arxiv.org/abs/2603.03024v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03024v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.03018v1",
+    "title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+    "authors": [
+      "Yuvraj Agrawal"
+    ],
+    "author_count": 1,
+    "summary": "Enterprise engineering organizations produce high-volume, heterogeneous telemetry from version control systems, CI/CD pipelines, issue trackers, and observability platforms. Large Language Models (LLMs) enable new forms of agentic automation, but grounding such agents on private telemetry raises three practical challenges: limited model context, locally defined semantic concepts, and evolving metric interfaces. We present REGAL, a registry-driven architecture for deterministic grounding of agentic AI systems in enterprise telemetry. REGAL adopts an explicitly architectural approach: determi...",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "published": "2026-03-03T14:13:39Z",
+    "updated": "2026-03-03T14:13:39Z",
+    "abs_url": "https://arxiv.org/abs/2603.03018v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03018v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.03005v1",
+    "title": "OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents",
+    "authors": [
+      "Yichao Feng",
+      "Haoran Luo",
+      "Zhenghong Lin",
+      "Yiqun Sun",
+      "Pengfei Wei"
+    ],
+    "author_count": 7,
+    "summary": "Multi-agent large language model frameworks are promising for complex multi step reasoning, yet existing systems remain weak for scientific and knowledge intensive domains due to static prompts and agent roles, rigid workflows, and homogeneous model reliance, leading to poor domain adaptation, limited reasoning flexibility, and high latency on heterogeneous or long-horizon scientific tasks. They also struggle to revise earlier decisions when intermediate reasoning diverges, reducing reliability in structured and calculation heavy settings. To address these limitations, we propose a scientif...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T13:57:43Z",
+    "updated": "2026-03-03T13:57:43Z",
+    "abs_url": "https://arxiv.org/abs/2603.03005v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.03005v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02989v1",
+    "title": "CASSR: Continuous A-Star Search through Reachability for real time footstep planning",
+    "authors": [
+      "Jiayi Wang",
+      "Steve Tonneau"
+    ],
+    "author_count": 2,
+    "summary": "Footstep planning involves a challenging combinatorial search. Traditional A* approaches require discretising reachability constraints, while Mixed-Integer Programming (MIP) supports continuous formulations but quickly becomes intractable, especially when rotations are included. We present CASSR, a novel framework that recursively propagates convex, continuous formulations of a robot's kinematic constraints within an A* search. Combined with a new cost-to-go heuristic based on the EPA algorithm, CASSR efficiently plans contact sequences of up to 30 footsteps in under 125 ms. Experiments on ...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T13:41:49Z",
+    "updated": "2026-03-03T13:41:49Z",
+    "abs_url": "https://arxiv.org/abs/2603.02989v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02989v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02983v1",
+    "title": "Contextualized Privacy Defense for LLM Agents",
+    "authors": [
+      "Yule Wen",
+      "Yanzhe Zhang",
+      "Jianxun Lian",
+      "Xiaoyuan Yi",
+      "Xing Xie"
+    ],
+    "author_count": 6,
+    "summary": "LLM agents increasingly act on users' personal information, yet existing privacy defenses remain limited in both design and adaptability. Most prior approaches rely on static or passive defenses, such as prompting and guarding. These paradigms are insufficient for supporting contextual, proactive privacy decisions in multi-step agent execution. We propose Contextualized Defense Instructing (CDI), a new privacy defense paradigm in which an instructor model generates step-specific, context-aware privacy guidance during execution, proactively shaping actions rather than merely constraining or ...",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "published": "2026-03-03T13:35:33Z",
+    "updated": "2026-03-03T13:35:33Z",
+    "abs_url": "https://arxiv.org/abs/2603.02983v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02983v1",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02960v1",
+    "title": "Architecting Trust in Artificial Epistemic Agents",
+    "authors": [
+      "Nahema Marchal",
+      "Stephanie Chan",
+      "Matija Franklin",
+      "Manon Revel",
+      "Geoff Keeling"
+    ],
+    "author_count": 8,
+    "summary": "Large language models increasingly function as epistemic agents -- entities that can 1) autonomously pursue epistemic goals and 2) actively shape our shared knowledge environment. They curate the information we receive, often supplanting traditional search-based methods, and are frequently used to generate both personal and deeply specialized advice. How they perform these functions, including whether they are reliable and properly calibrated to both individual and collective epistemic norms, is therefore highly consequential for the choices we make. We argue that the potential impact of ep...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T13:12:33Z",
+    "updated": "2026-03-03T13:12:33Z",
+    "abs_url": "https://arxiv.org/abs/2603.02960v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02960v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02952v1",
+    "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+    "authors": [
+      "Ihor Kendiukhov"
+    ],
+    "author_count": 1,
+    "summary": "Background: Single-cell foundation models such as Geneformer and scGPT encode rich biological information, but whether this includes causal regulatory logic rather than statistical co-expression remains unclear. Sparse autoencoders (SAEs) can resolve superposition in neural networks by decomposing dense activations into interpretable features, yet they have not been systematically applied to biological foundation models. Results: We trained TopK SAEs on residual stream activations from all layers of Geneformer V2-316M (18 layers, d=1152) and scGPT whole-human (12 layers, d=512), producing a...",
+    "categories": [
+      "q-bio.GN",
+      "cs.LG",
+      "q-bio.CB"
+    ],
+    "published": "2026-03-03T13:05:11Z",
+    "updated": "2026-03-03T13:05:11Z",
+    "abs_url": "https://arxiv.org/abs/2603.02952v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02952v1",
+    "tags": [
+      "efficient-inference",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02949v1",
+    "title": "SEALing the Gap: A Reference Framework for LLM Inference Carbon Estimation via Multi-Benchmark Driven Embodiment",
+    "authors": [
+      "Priyavanshi Pathania",
+      "Rohit Mehra",
+      "Vibhu Saujanya Sharma",
+      "Vikrant Kaulgud",
+      "Tiffani Nevels"
+    ],
+    "author_count": 7,
+    "summary": "Large Language Models are rapidly gaining traction in software engineering, yet their growing carbon footprint raises pressing sustainability concerns. While training emissions are substantial, inference quickly surpasses them due to the sheer volume of prompts processed. This shift underscores the urgent need for accurate, prompt-level carbon measurement during inference to enable informed, sustainability-focused decision-making. To address the limitations of existing approaches, in this paper, we outline the guiding principles for a novel reference framework for LLM inference carbon estim...",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T12:57:27Z",
+    "updated": "2026-03-03T12:57:27Z",
+    "abs_url": "https://arxiv.org/abs/2603.02949v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02949v1",
+    "tags": [
+      "efficient-inference",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02909v1",
+    "title": "Learning to Generate and Extract: A Multi-Agent Collaboration Framework For Zero-shot Document-level Event Arguments Extraction",
+    "authors": [
+      "Guangjun Zhang",
+      "Hu Zhang",
+      "Yazhou Han",
+      "Yue Fan",
+      "Yuhang Shao"
+    ],
+    "author_count": 7,
+    "summary": "Document-level event argument extraction (DEAE) is essential for knowledge acquisition, aiming to extract participants of events from documents.In the zero-shot setting, existing methods employ LLMs to generate synthetic data to address the challenge posed by the scarcity of annotated data. However, relying solely on Event-type-only prompts makes it difficult for the generated content to accurately capture the contextual and structural relationships of unseen events. Moreover, ensuring the reliability and usability of synthetic data remains a significant challenge due to the absence of qual...",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T12:03:35Z",
+    "updated": "2026-03-03T12:03:35Z",
+    "abs_url": "https://arxiv.org/abs/2603.02909v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02909v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02878v1",
+    "title": "Emerging trends in Cislunar Space for Lunar Science Exploration and Space Robotics aiding Human Spaceflight Safety",
+    "authors": [
+      "Arsalan Muhammad",
+      "Yue Wang",
+      "Hai Huang",
+      "Hao Wang"
+    ],
+    "author_count": 4,
+    "summary": "In recent years, the Moon has emerged as an unparalleled extraterrestrial testbed for advancing cuttingedge technological and scientific research critical to enabling sustained human presence on its surface and supporting future interplanetary exploration. This study identifies and investigates two pivotal research domains with substantial transformative potential for accelerating humanity interplanetary aspirations. First is Lunar Science Exploration with Artificial Intelligence and Space Robotics which focusses on AI and Space Robotics redefining the frontiers of space exploration. Second...",
+    "categories": [
+      "cs.RO",
+      "astro-ph.EP"
+    ],
+    "published": "2026-03-03T11:32:33Z",
+    "updated": "2026-03-03T11:32:33Z",
+    "abs_url": "https://arxiv.org/abs/2603.02878v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02878v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02851v1",
+    "title": "Design, Modeling and Direction Control of a Wire-Driven Robotic Fish Based on a 2-DoF Crank-Slider Mechanism",
+    "authors": [
+      "Yita Wang",
+      "Chen Chen",
+      "Yicheng Chen",
+      "Jinjie Li",
+      "Yuichi Motegi"
+    ],
+    "author_count": 8,
+    "summary": "Robotic fish have attracted growing attention in recent years owing to their biomimetic design and potential applications in environmental monitoring and biological surveys. Among robotic fish employing the Body-Caudal Fin (BCF) locomotion pattern, motor-driven actuation is widely adopted. Some approaches utilize multiple servo motors to achieve precise body curvature control, while others employ a brushless motor to drive the tail via wire or rod, enabling higher oscillation and swimming speeds. However, the former approaches typically result in limited swimming speed, whereas the latter s...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T10:55:45Z",
+    "updated": "2026-03-03T10:55:45Z",
+    "abs_url": "https://arxiv.org/abs/2603.02851v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02851v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02845v1",
+    "title": "SPARC: Spatial-Aware Path Planning via Attentive Robot Communication",
+    "authors": [
+      "Sayang Mu",
+      "Xiangyu Wu",
+      "Bo An"
+    ],
+    "author_count": 3,
+    "summary": "Efficient communication is critical for decentralized Multi-Robot Path Planning (MRPP), yet existing learned communication methods treat all neighboring robots equally regardless of their spatial proximity, leading to diluted attention in congested regions where coordination matters most. We propose Relation enhanced Multi Head Attention (RMHA), a communication mechanism that explicitly embeds pairwise Manhattan distances into the attention weight computation, enabling each robot to dynamically prioritize messages from spatially relevant neighbors. Combined with a distance-constrained atten...",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T10:40:20Z",
+    "updated": "2026-03-03T10:40:20Z",
+    "abs_url": "https://arxiv.org/abs/2603.02845v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02845v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02816v1",
+    "title": "BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation",
+    "authors": [
+      "Zihao Zhu",
+      "Ruotong Wang",
+      "Siwei Lyu",
+      "Min Zhang",
+      "Baoyuan Wu"
+    ],
+    "author_count": 5,
+    "summary": "The rapid advancement of text-to-video (T2V) models has revolutionized content creation, yet their commercial potential remains largely untapped. We introduce, for the first time, the task of seamless brand integration in T2V: automatically embedding advertiser brands into prompt-generated videos while preserving semantic fidelity to user intent. This task confronts three core challenges: maintaining prompt fidelity, ensuring brand recognizability, and achieving contextually natural integration. To address them, we propose BrandFusion, a novel multi-agent framework comprising two synergisti...",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T10:10:41Z",
+    "updated": "2026-03-03T10:10:41Z",
+    "abs_url": "https://arxiv.org/abs/2603.02816v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02816v1",
+    "tags": [
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.02798v1",
+    "title": "Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification",
+    "authors": [
+      "Yichi Zhang",
+      "Nabeel Seedat",
+      "Yinpeng Dong",
+      "Peng Cui",
+      "Jun Zhu"
+    ],
+    "author_count": 6,
+    "summary": "As LLM-powered agents have been used for high-stakes decision-making, such as clinical diagnosis, it becomes critical to develop reliable verification of their decisions to facilitate trustworthy deployment. Yet, existing verifiers usually underperform owing to a lack of domain knowledge and limited calibration. To address this, we establish GLEAN, an agent verification framework with Guideline-grounded Evidence Accumulation that compiles expert-curated protocols into trajectory-informed, well-calibrated correctness signals. GLEAN evaluates the step-wise alignment with domain guidelines and...",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "published": "2026-03-03T09:36:43Z",
+    "updated": "2026-03-03T09:36:43Z",
+    "abs_url": "https://arxiv.org/abs/2603.02798v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02798v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02788v1",
+    "title": "Agentified Assessment of Logical Reasoning Agents",
+    "authors": [
+      "Zhiyu Ni",
+      "Yifeng Xiao",
+      "Zheng Liang"
+    ],
+    "author_count": 3,
+    "summary": "We present a framework for evaluating and benchmarking logical reasoning agents when assessment itself must be reproducible, auditable, and robust to execution failures. Building on agentified assessment, we use an assessor agent to issue tasks, enforce execution budgets, parse outputs, and record structured failure types, while the agent under test only needs to expose a standardized agent-to-agent interface. As a case study, we benchmark an auto-formalization agent for first-order logic (FOL) reasoning on a solver-verified and repaired split of FOLIO. The agent translates natural language...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T09:26:08Z",
+    "updated": "2026-03-03T09:26:08Z",
+    "abs_url": "https://arxiv.org/abs/2603.02788v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02788v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02783v1",
+    "title": "Generative adversarial imitation learning for robot swarms: Learning from human demonstrations and trained policies",
+    "authors": [
+      "Mattes Kraus",
+      "Jonas Kuckling"
+    ],
+    "author_count": 2,
+    "summary": "In imitation learning, robots are supposed to learn from demonstrations of the desired behavior. Most of the work in imitation learning for swarm robotics provides the demonstrations as rollouts of an existing policy. In this work, we provide a framework based on generative adversarial imitation learning that aims to learn collective behaviors from human demonstrations. Our framework is evaluated across six different missions, learning both from manual demonstrations and demonstrations derived from a PPO-trained policy. Results show that the imitation learning process is able to learn quali...",
+    "categories": [
+      "cs.RO",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "published": "2026-03-03T09:23:30Z",
+    "updated": "2026-03-03T09:23:30Z",
+    "abs_url": "https://arxiv.org/abs/2603.02783v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02783v1",
+    "tags": [
+      "robotics",
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02772v1",
+    "title": "Agentic Self-Evolutionary Replanning for Embodied Navigation",
+    "authors": [
+      "Guoliang Li",
+      "Ruihua Han",
+      "Chengyang Li",
+      "He Li",
+      "Shuai Wang"
+    ],
+    "author_count": 8,
+    "summary": "Failure is inevitable for embodied navigation in complex environments. To enhance the resilience, replanning (RP) is a viable option, where the robot is allowed to fail, but is capable of adjusting plan until success. However, existing RP approaches freeze the ego action model and miss the opportunities to explore better plans by upgrading the robot itself. To address this limitation, we propose Self-Evolutionary RePlanning, or SERP for short, which leads to a paradigm shift from frozen models towards evolving models by run-time learning from recent experiences. In contrast to existing mode...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T09:12:29Z",
+    "updated": "2026-03-03T09:12:29Z",
+    "abs_url": "https://arxiv.org/abs/2603.02772v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02772v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02766v1",
+    "title": "EvoSkill: Automated Skill Discovery for Multi-Agent Systems",
+    "authors": [
+      "Salaheddin Alzubi",
+      "Noah Provenzano",
+      "Jaydon Bingham",
+      "Weiyuan Chen",
+      "Tu Vu"
+    ],
+    "author_count": 5,
+    "summary": "Coding agents are increasingly used as general-purpose problem solvers, but their flexibility does not by itself confer the domain expertise needed for specialized tasks. Recent work addresses this through \\textit{agent skills}: reusable workflows, and code, that augment agents with domain-specific capabilities. Most skills today are hand-crafted, and existing evolutionary approaches optimize low-level artifacts (e.g. prompts \\& code) that are tightly coupled to specific models and tasks. We introduce \\textbf{EvoSkill}, a self-evolving framework that automatically discovers and refines agen...",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "published": "2026-03-03T09:07:22Z",
+    "updated": "2026-03-03T09:07:22Z",
+    "abs_url": "https://arxiv.org/abs/2603.02766v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02766v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02711v1",
+    "title": "A Natural Language Agentic Approach to Study Affective Polarization",
+    "authors": [
+      "Stephanie Anneris Malvicini",
+      "Ewelina Gajewska",
+      "Arda Derbent",
+      "Katarzyna Budzynska",
+      "Jaros\u0142aw A. Chudziak"
+    ],
+    "author_count": 6,
+    "summary": "Affective polarization has been central to political and social studies, with growing focus on social media, where partisan divisions are often exacerbated. Real-world studies tend to have limited scope, while simulated studies suffer from insufficient high-quality training data, as manually labeling posts is labor-intensive and prone to subjective biases. The lack of adequate tools to formalize different definitions of affective polarization across studies complicates result comparison and hinders interoperable frameworks. We present a multi-agent model providing a comprehensive approach t...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T08:02:58Z",
+    "updated": "2026-03-03T08:02:58Z",
+    "abs_url": "https://arxiv.org/abs/2603.02711v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02711v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02709v1",
+    "title": "Sensory-Aware Sequential Recommendation via Review-Distilled Representations",
+    "authors": [
+      "Yeo Chan Yoon"
+    ],
+    "author_count": 1,
+    "summary": "We propose a novel framework for sensory-aware sequential recommendation that enriches item representations with linguistically extracted sensory attributes from product reviews. Our approach, \\textsc{ASEGR} (Attribute-based Sensory Enhanced Generative Recommendation), introduces a two-stage pipeline in which a large language model is first fine-tuned as a teacher to extract structured sensory attribute--value pairs, such as \\textit{color: matte black} and \\textit{scent: vanilla}, from unstructured review text. The extracted structures are then distilled into a compact student transformer t...",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T08:00:34Z",
+    "updated": "2026-03-03T08:00:34Z",
+    "abs_url": "https://arxiv.org/abs/2603.02709v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02709v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.02701v1",
+    "title": "Graph-GRPO: Stabilizing Multi-Agent Topology Learning via Group Relative Policy Optimization",
+    "authors": [
+      "Yueyang Cang",
+      "Xiaoteng Zhang",
+      "Erlu Zhao",
+      "Zehua Ji",
+      "Yuhang Liu"
+    ],
+    "author_count": 10,
+    "summary": "Optimizing communication topology is fundamental to the efficiency and effectiveness of Large Language Model (LLM)-based Multi-Agent Systems (MAS). While recent approaches utilize reinforcement learning to dynamically construct task-specific graphs, they typically rely on single-sample policy gradients with absolute rewards (e.g., binary correctness). This paradigm suffers from severe gradient variance and the credit assignment problem: simple queries yield non-informative positive rewards for suboptimal structures, while difficult queries often result in failures that provide no learning s...",
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2026-03-03T07:45:40Z",
+    "updated": "2026-03-03T07:45:40Z",
+    "abs_url": "https://arxiv.org/abs/2603.02701v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02701v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02697v1",
+    "title": "ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling",
+    "authors": [
+      "Jiayi Zhu",
+      "Jianing Zhang",
+      "Yiying Yang",
+      "Wei Cheng",
+      "Xiaoyun Yuan"
+    ],
+    "author_count": 5,
+    "summary": "This paper presents ShareVerse, a video generation framework enabling multi-agent shared world modeling, addressing the gap in existing works that lack support for unified shared world construction with multi-agent interaction. ShareVerse leverages the generation capability of large video models and integrates three key innovations: 1) A dataset for large-scale multi-agent interactive world modeling is built on the CARLA simulation platform, featuring diverse scenes, weather conditions, and interactive trajectories with paired multi-view videos (front/ rear/ left/ right views per agent) and...",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T07:41:12Z",
+    "updated": "2026-03-03T07:41:12Z",
+    "abs_url": "https://arxiv.org/abs/2603.02697v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02697v1",
+    "tags": [
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.02688v1",
+    "title": "Retrieval-Augmented Robots via Retrieve-Reason-Act",
+    "authors": [
+      "Izat Temiraliev",
+      "Diji Yang",
+      "Yi Zhang"
+    ],
+    "author_count": 3,
+    "summary": "To achieve general-purpose utility, we argue that robots must evolve from passive executors into active Information Retrieval users. In strictly zero-shot settings where no prior demonstrations exist, robots face a critical information gap, such as the exact sequence required to assemble a complex furniture kit, that cannot be satisfied by internal parametric knowledge (common sense) or past internal memory. While recent robotic works attempt to use search before action, they primarily focus on retrieving past kinematic trajectories (analogous to searching internal memory) or text-based saf...",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "published": "2026-03-03T07:32:15Z",
+    "updated": "2026-03-03T07:32:15Z",
+    "abs_url": "https://arxiv.org/abs/2603.02688v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02688v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02683v1",
+    "title": "MMH-Planner: Multi-Mode Hybrid Trajectory Planning Method for UAV Efficient Flight Based on Real-Time Spatial Awareness",
+    "authors": [
+      "Yinghao Zhao",
+      "Chenguang Dai",
+      "Liang Lyu",
+      "Zhenchao Zhang",
+      "Chaozhen Lan"
+    ],
+    "author_count": 6,
+    "summary": "Motion planning is a critical component of intelligent unmanned systems, enabling their complex autonomous operations. However, current planning algorithms still face limitations in planning efficiency due to inflexible strategies and weak adaptability. To address this, this paper proposes a multi-mode hybrid trajectory planning method for UAVs based on real-time environmental awareness, which dynamically selects the optimal planning model for high-quality trajectory generation in response to environmental changes. First, we introduce a goal-oriented spatial awareness method that rapidly as...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T07:23:19Z",
+    "updated": "2026-03-03T07:23:19Z",
+    "abs_url": "https://arxiv.org/abs/2603.02683v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02683v1",
+    "tags": [
+      "agents",
+      "efficient-inference",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02669v1",
+    "title": "IMR-LLM: Industrial Multi-Robot Task Planning and Program Generation using Large Language Models",
+    "authors": [
+      "Xiangyu Su",
+      "Juzhan Xu",
+      "Oliver van Kaick",
+      "Kai Xu",
+      "Ruizhen Hu"
+    ],
+    "author_count": 5,
+    "summary": "In modern industrial production, multiple robots often collaborate to complete complex manufacturing tasks. Large language models (LLMs), with their strong reasoning capabilities, have shown potential in coordinating robots for simple household and manipulation tasks. However, in industrial scenarios, stricter sequential constraints and more complex dependencies within tasks present new challenges for LLMs. To address this, we propose IMR-LLM, a novel LLM-driven Industrial Multi-Robot task planning and program generation framework. Specifically, we utilize LLMs to assist in constructing dis...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T06:55:27Z",
+    "updated": "2026-03-03T06:55:27Z",
+    "abs_url": "https://arxiv.org/abs/2603.02669v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02669v1",
+    "tags": [
+      "agents",
+      "robotics",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02657v1",
+    "title": "Watch Your Step: Learning Semantically-Guided Locomotion in Cluttered Environment",
+    "authors": [
+      "Denan Liang",
+      "Yuan Zhu",
+      "Ruimeng Liu",
+      "Thien-Minh Nguyen",
+      "Shenghai Yuan"
+    ],
+    "author_count": 6,
+    "summary": "Although legged robots demonstrate impressive mobility on rough terrain, using them safely in cluttered environments remains a challenge. A key issue is their inability to avoid stepping on low-lying objects, such as high-cost small devices or cables on flat ground. This limitation arises from a disconnection between high-level semantic understanding and low-level control, combined with errors in elevation maps during real-world operation. To address this, we introduce SemLoco, a Reinforcement Learning (RL) framework designed to avoid obstacles precisely in densely cluttered environments. S...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T06:47:46Z",
+    "updated": "2026-03-03T06:47:46Z",
+    "abs_url": "https://arxiv.org/abs/2603.02657v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02657v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02654v1",
+    "title": "Generalized Per-Agent Advantage Estimation for Multi-Agent Policy Optimization",
+    "authors": [
+      "Seongmin Kim",
+      "Giseung Park",
+      "Woojun Kim",
+      "Jiwon Jeon",
+      "Seungyeol Han"
+    ],
+    "author_count": 6,
+    "summary": "In this paper, we propose a novel framework for multi-agent reinforcement learning that enhances sample efficiency and coordination through accurate per-agent advantage estimation. The core of our approach is Generalized Per-Agent Advantage Estimator (GPAE), which employs a per-agent value iteration operator to compute precise per-agent advantages. This operator enables stable off-policy learning by indirectly estimating values via action probabilities, eliminating the need for direct Q-function estimation. To further refine estimation, we introduce a double-truncated importance sampling ra...",
+    "categories": [
+      "cs.MA"
+    ],
+    "published": "2026-03-03T06:37:50Z",
+    "updated": "2026-03-03T06:37:50Z",
+    "abs_url": "https://arxiv.org/abs/2603.02654v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02654v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02646v1",
+    "title": "Compositional Visual Planning via Inference-Time Diffusion Scaling",
+    "authors": [
+      "Yixin Zhang",
+      "Yunhao Luo",
+      "Utkarsh Aashu Mishra",
+      "Woo Chul Shin",
+      "Yongxin Chen"
+    ],
+    "author_count": 6,
+    "summary": "Diffusion models excel at short-horizon robot planning, yet scaling them to long-horizon tasks remains challenging due to computational constraints and limited training data. Existing compositional approaches stitch together short segments by separately denoising each component and averaging overlapping regions. However, this suffers from instability as the factorization assumption breaks down in noisy data space, leading to inconsistent global plans. We propose that the key to stable compositional generation lies in enforcing boundary agreement on the estimated clean data (Tweedie estimate...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T06:24:06Z",
+    "updated": "2026-03-03T06:24:06Z",
+    "abs_url": "https://arxiv.org/abs/2603.02646v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02646v1",
+    "tags": [
+      "agents",
+      "efficient-inference",
+      "multimodal",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02637v1",
+    "title": "StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning",
+    "authors": [
+      "Shiyang Li",
+      "Zijian Zhang",
+      "Winson Chen",
+      "Yuebo Luo",
+      "Mingyi Hong"
+    ],
+    "author_count": 6,
+    "summary": "Modern machine learning (ML) workloads increasingly rely on GPUs, yet achieving high end-to-end performance remains challenging due to dependencies on both GPU kernel efficiency and host-side settings. Although LLM-based methods show promise on automated GPU kernel generation, prior works mainly focus on single-kernel optimization and do not extend to end-to-end programs, hindering practical deployment. To address the challenge, in this work, we propose StitchCUDA, a multi-agent framework for end-to-end GPU program generation, with three specialized agents: a Planner to orchestrate whole sy...",
+    "categories": [
+      "cs.MA",
+      "cs.CL",
+      "cs.PL"
+    ],
+    "published": "2026-03-03T06:04:49Z",
+    "updated": "2026-03-03T06:04:49Z",
+    "abs_url": "https://arxiv.org/abs/2603.02637v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02637v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "id": "2603.02633v1",
+    "title": "Robust Heterogeneous Analog-Digital Computing for Mixture-of-Experts Models with Theoretical Generalization Guarantees",
+    "authors": [
+      "Mohammed Nowaz Rabbani Chowdhury",
+      "Hsinyu Tsai",
+      "Geoffrey W. Burr",
+      "Kaoutar El Maghraoui",
+      "Liu Liu"
+    ],
+    "author_count": 6,
+    "summary": "Sparse Mixture-of-Experts (MoE) models enable efficient scalability by activating only a small sub-set of experts per input, yet their massive parameter counts lead to substantial memory and energy inefficiency during inference. Analog in-memory computing (AIMC) offers a promising solution by eliminating frequent data movement between memory and compute units. However, mitigating hardware nonidealities of AIMC typically requires noise-aware retraining, which is infeasible for large MoE models. In this paper, we propose a retraining-free heterogeneous computation framework in which noise-sen...",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T06:00:57Z",
+    "updated": "2026-03-03T06:00:57Z",
+    "abs_url": "https://arxiv.org/abs/2603.02633v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02633v1",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02630v1",
+    "title": "MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks",
+    "authors": [
+      "Zhi Hong",
+      "Qian Zhang",
+      "Jiahang Sun",
+      "Zhiwei Shang",
+      "Mingze Kong"
+    ],
+    "author_count": 8,
+    "summary": "Large Language Models (LLMs) have achieved great success in many real-world applications, especially the one serving as the cognitive backbone of Multi-Agent Systems (MAS) to orchestrate complex workflows in practice. Since many deployment scenarios preclude MAS workflow modifications and its performance is highly sensitive to the input prompts, prompt optimization emerges as a more natural approach to improve its performance. However, real-world prompt optimization for MAS is impeded by three key challenges: (1) the need of sample efficiency due to prohibitive evaluation costs, (2) topolog...",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T05:59:05Z",
+    "updated": "2026-03-03T05:59:05Z",
+    "abs_url": "https://arxiv.org/abs/2603.02630v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02630v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02626v1",
+    "title": "See and Remember: A Multimodal Agent for Web Traversal",
+    "authors": [
+      "Xinjun Wang",
+      "Shengyao Wang",
+      "Aimin Zhou",
+      "Hao Hao"
+    ],
+    "author_count": 4,
+    "summary": "Autonomous web navigation requires agents to perceive complex visual environments and maintain long-term context, yet current Large Language Model (LLM) based agents often struggle with spatial disorientation and navigation loops. In this paper, we propose generally applicable V-GEMS(Visual Grounding and Explicit Memory System), a robust multimodal agent architecture designed for precise and resilient web traversal. Our agent integrates visual grounding to resolve ambiguous interactive elements and introduces an explicit memory stack with state tracking. This dual mechanism allows the agent...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T05:55:05Z",
+    "updated": "2026-03-03T05:55:05Z",
+    "abs_url": "https://arxiv.org/abs/2603.02626v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02626v1",
+    "tags": [
+      "agents",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "2603.02623v1",
+    "title": "Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation",
+    "authors": [
+      "Senwei Xie",
+      "Yuntian Zhang",
+      "Ruiping Wang",
+      "Xilin Chen"
+    ],
+    "author_count": 4,
+    "summary": "While skill-centric approaches leverage foundation models to enhance generalization in compositional tasks, they often rely on fixed skill libraries, limiting adaptability to new tasks without manual intervention. To address this, we propose Uni-Skill, a Unified Skill-centric framework that supports skill-aware planning and facilitates automatic skill evolution. Unlike prior methods that restrict planning to predefined skills, Uni-Skill requests for new skill implementations when existing ones are insufficient, ensuring adaptable planning with self-augmented skill library. To support automa...",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "published": "2026-03-03T05:49:37Z",
+    "updated": "2026-03-03T05:49:37Z",
+    "abs_url": "https://arxiv.org/abs/2603.02623v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02623v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02607v1",
+    "title": "Combinatorial Sparse PCA Beyond the Spiked Identity Model",
+    "authors": [
+      "Syamantak Kumar",
+      "Purnamrita Sarkar",
+      "Kevin Tian",
+      "Peiyuan Zhang"
+    ],
+    "author_count": 4,
+    "summary": "Sparse PCA is one of the most well-studied problems in high-dimensional statistics. In this problem, we are given samples from a distribution with covariance $\u03a3$, whose top eigenvector $v \\in R^d$ is $s$-sparse. Existing sparse PCA algorithms can be broadly categorized into (1) combinatorial algorithms (e.g., diagonal or elementwise covariance thresholding) and (2) SDP-based algorithms. While combinatorial algorithms are much simpler, they are typically only analyzed under the spiked identity model (where $\u03a3= I_d + \u03b3vv^\\top$ for some $\u03b3> 0$), whereas SDP-based algorithms require no addition...",
+    "categories": [
+      "stat.ML",
+      "cs.DS",
+      "cs.LG",
+      "math.OC"
+    ],
+    "published": "2026-03-03T05:19:55Z",
+    "updated": "2026-03-03T05:19:55Z",
+    "abs_url": "https://arxiv.org/abs/2603.02607v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02607v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.02604v1",
+    "title": "Heterogeneous Agent Collaborative Reinforcement Learning",
+    "authors": [
+      "Zhixia Zhang",
+      "Zixuan Huang",
+      "Xin Xia",
+      "Deqing Wang",
+      "Fuzhen Zhuang"
+    ],
+    "author_count": 10,
+    "summary": "We introduce Heterogeneous Agent Collaborative Reinforcement Learning (HACRL), a new learning paradigm that addresses the inefficiencies of isolated on-policy optimization. HACRL enables collaborative optimization with independent execution: heterogeneous agents share verified rollouts during training to mutually improve, while operating independently at inference time. Unlike LLM-based multi-agent reinforcement learning (MARL), HACRL does not require coordinated deployment, and unlike on-/off-policy distillation, it enables bidirectional mutual learning among heterogeneous agents rather th...",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2026-03-03T05:09:49Z",
+    "updated": "2026-03-03T05:09:49Z",
+    "abs_url": "https://arxiv.org/abs/2603.02604v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02604v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "id": "2603.02602v1",
+    "title": "Wukong-Omni: Design, Modeling and Control of a Multi-mode Robot for Air, Land, and Underwater Exploration with All-in-One Propulsion Unit",
+    "authors": [
+      "Yufan Liu",
+      "Rixi Yu",
+      "Junjie Li",
+      "Yishuai Zeng",
+      "Zhenting Wen"
+    ],
+    "author_count": 10,
+    "summary": "In flood disaster rescue scenarios, partially submerged buildings prevent aerial robots from accessing lower levels, limiting mission effectiveness. To address this challenge, this paper presents Wukong-Omni, a novel multimode robot capable of operating across land, air, and underwater using a unified propulsion system. The system is enabled by an innovative mechanical design that allows motor reuse and improves thrust generation. Efficiency and peak thrust are enhanced through simulation and tank-based optimization. Experimental results show a 100 percent improvement in propulsion efficien...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T05:00:56Z",
+    "updated": "2026-03-03T05:00:56Z",
+    "abs_url": "https://arxiv.org/abs/2603.02602v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02602v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02601v1",
+    "title": "AgentAssay: Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows",
+    "authors": [
+      "Varun Pratap Bhardwaj"
+    ],
+    "author_count": 1,
+    "summary": "Autonomous AI agents are deployed at unprecedented scale, yet no principled methodology exists for verifying that an agent has not regressed after changes to its prompts, tools, models, or orchestration logic. We present AgentAssay, the first token-efficient framework for regression testing non-deterministic AI agent workflows, achieving 78-100% cost reduction while maintaining rigorous statistical guarantees. Our contributions include: (1) stochastic three-valued verdicts (PASS/FAIL/INCONCLUSIVE) grounded in hypothesis testing; (2) five-dimensional agent coverage metrics; (3) agent-specifi...",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "published": "2026-03-03T04:59:25Z",
+    "updated": "2026-03-03T04:59:25Z",
+    "abs_url": "https://arxiv.org/abs/2603.02601v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02601v1",
+    "tags": [
+      "agents",
+      "efficient-inference",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02596v1",
+    "title": "Tensegrity Robot Endcap-Ground Contact Estimation with Symmetry-aware Heterogeneous Graph Neural Network",
+    "authors": [
+      "Wenzhe Tong",
+      "Yicheng Jiang",
+      "Chi Zhang",
+      "Maani Ghaffari",
+      "Xiaonan Huang"
+    ],
+    "author_count": 5,
+    "summary": "Tensegrity robots possess lightweight and resilient structures but present significant challenges for state estimation due to compliant and distributed ground contacts. This paper introduces a symmetry-aware heterogeneous graph neural network (Sym-HGNN) that infers contact states directly from proprioceptive measurements, including IMU and cable-length histories, without dedicated contact sensors. The network incorporates the robot's dihedral symmetry $D_3$ into the message-passing process to enhance sample efficiency and generalization. The predicted contacts are integrated into a state-of...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T04:45:43Z",
+    "updated": "2026-03-03T04:45:43Z",
+    "abs_url": "https://arxiv.org/abs/2603.02596v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02596v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02586v1",
+    "title": "LiveAgentBench: Comprehensive Benchmarking of Agentic Systems Across 104 Real-World Challenges",
+    "authors": [
+      "Hao Li",
+      "Huan Wang",
+      "Jinjie Gu",
+      "Wenjie Wang",
+      "Chenyi Zhuang"
+    ],
+    "author_count": 6,
+    "summary": "As large language models grow more capable, general AI agents have become increasingly prevalent in practical applications. However, existing benchmarks face significant limitations, failing to represent real-world user tasks accurately. To address this gap, we present LiveAgentBench, a comprehensive benchmark with 104 scenarios that reflect real user requirements. It is constructed from publicly sourced questions on social media and real-world products. Central to our approach is the Social Perception-Driven Data Generation (SPDG) method, a novel process we developed to ensure each questio...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-03T04:03:05Z",
+    "updated": "2026-03-03T04:03:05Z",
+    "abs_url": "https://arxiv.org/abs/2603.02586v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02586v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02553v1",
+    "title": "Give me scissors: Collision-Free Dual-Arm Surgical Assistive Robot for Instrument Delivery",
+    "authors": [
+      "Xuejin Luo",
+      "Shiquan Sun",
+      "Runshi Zhang",
+      "Ruizhi Zhang",
+      "Junchen Wang"
+    ],
+    "author_count": 5,
+    "summary": "During surgery, scrub nurses are required to frequently deliver surgical instruments to surgeons, which can lead to physical fatigue and decreased focus. Robotic scrub nurses provide a promising solution that can replace repetitive tasks and enhance efficiency. Existing research on robotic scrub nurses relies on predefined paths for instrument delivery, which limits their generalizability and poses safety risks in dynamic environments. To address these challenges, we present a collision-free dual-arm surgical assistive robot capable of performing instrument delivery. A vision-language model...",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.HC",
+      "cs.LG"
+    ],
+    "published": "2026-03-03T03:14:59Z",
+    "updated": "2026-03-03T03:14:59Z",
+    "abs_url": "https://arxiv.org/abs/2603.02553v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02553v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02511v1",
+    "title": "Learning Object-Centric Spatial Reasoning for Sequential Manipulation in Cluttered Environments",
+    "authors": [
+      "Chrisantus Eze",
+      "Ryan C Julian",
+      "Christopher Crick"
+    ],
+    "author_count": 3,
+    "summary": "Robotic manipulation in cluttered environments presents a critical challenge for automation. Recent large-scale, end-to-end models demonstrate impressive capabilities but often lack the data efficiency and modularity required for retrieving objects in dense clutter. In this work, we argue for a paradigm of specialized, decoupled systems and present Unveiler, a framework that explicitly separates high-level spatial reasoning from low-level action execution. Unveiler's core is a lightweight, transformer-based Spatial Relationship Encoder (SRE) that sequentially identifies the most critical ob...",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2026-03-03T01:45:53Z",
+    "updated": "2026-03-03T01:45:53Z",
+    "abs_url": "https://arxiv.org/abs/2603.02511v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02511v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02510v1",
+    "title": "ParEVO: Synthesizing Code for Irregular Data: High-Performance Parallelism through Agentic Evolution",
+    "authors": [
+      "Liu Yang",
+      "Zeyu Nie",
+      "Andrew Liu",
+      "Felix Zou",
+      "Deniz Altinb\u00fcken"
+    ],
+    "author_count": 7,
+    "summary": "The transition from sequential to parallel computing is essential for modern high-performance applications but is hindered by the steep learning curve of concurrent programming. This challenge is magnified for irregular data structures (such as sparse graphs, unbalanced trees, and non-uniform meshes) where static scheduling fails and data dependencies are unpredictable. Current Large Language Models (LLMs) often fail catastrophically on these tasks, generating code plagued by subtle race conditions, deadlocks, and sub-optimal scaling. We bridge this gap with ParEVO, a framework designed to ...",
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "cs.NE",
+      "cs.PF"
+    ],
+    "published": "2026-03-03T01:41:07Z",
+    "updated": "2026-03-03T01:41:07Z",
+    "abs_url": "https://arxiv.org/abs/2603.02510v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02510v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02500v1",
+    "title": "Instant and Reversible Adhesive-free Bonding Between Silicones and Glossy Papers for Soft Robotics",
+    "authors": [
+      "Takumi Shibuya",
+      "Kazuya Murakami",
+      "Akitsu Shigetou",
+      "Jun Shintake"
+    ],
+    "author_count": 4,
+    "summary": "Integrating silicone with non-extensible materials is a common strategy used in the fabrication of fluidically-driven soft actuators, yet conventional approaches often rely on irreversible adhesives or embedding processes that are labor-intensive and difficult to modify. This work presents silicone-glossy paper bonding (SGB), a rapid, adhesive-free, and solvent-reversible bonding approach that forms robust silicone-paper interfaces simply through contact. The SGB interface withstands high mechanical loads (shear strength > 61 kPa) and can be fully detached and reassembled via ethanol immers...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-03T01:13:22Z",
+    "updated": "2026-03-03T01:13:22Z",
+    "abs_url": "https://arxiv.org/abs/2603.02500v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02500v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02491v1",
+    "title": "What Capable Agents Must Know: Selection Theorems for Robust Decision-Making under Uncertainty",
+    "authors": [
+      "Aran Nayebi"
+    ],
+    "author_count": 1,
+    "summary": "As artificial agents become increasingly capable, what internal structure is *necessary* for an agent to act competently under uncertainty? Classical results show that optimal control can be *implemented* using belief states or world models, but not that such representations are required. We prove quantitative \"selection theorems\" showing that low *average-case regret* on structured families of action-conditioned prediction tasks forces an agent to implement a predictive, structured internal state. Our results cover stochastic policies, partial observability, and evaluation under task distr...",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "q-bio.NC",
+      "stat.ML"
+    ],
+    "published": "2026-03-03T00:47:58Z",
+    "updated": "2026-03-03T00:47:58Z",
+    "abs_url": "https://arxiv.org/abs/2603.02491v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02491v1",
+    "tags": [
+      "agents",
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02473v1",
+    "title": "Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory",
+    "authors": [
+      "Boqin Yuan",
+      "Yue Su",
+      "Kun Yao"
+    ],
+    "author_count": 3,
+    "summary": "Memory-augmented LLM agents store and retrieve information from prior interactions, yet the relative importance of how memories are written versus how they are retrieved remains unclear. We introduce a diagnostic framework that analyzes how performance differences manifest across write strategies, retrieval methods, and memory utilization behavior, and apply it to a 3x3 study crossing three write strategies (raw chunks, Mem0-style fact extraction, MemGPT-style summarization) with three retrieval methods (cosine, BM25, hybrid reranking). On LoCoMo, retrieval method is the dominant factor: av...",
+    "categories": [
+      "cs.AI"
+    ],
+    "published": "2026-03-02T23:47:23Z",
+    "updated": "2026-03-02T23:47:23Z",
+    "abs_url": "https://arxiv.org/abs/2603.02473v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02473v1",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
+    "id": "2603.02468v1",
+    "title": "A Novel Modular Cable-Driven Soft Robotic Arm with Multi-Segment Reconfigurability",
+    "authors": [
+      "Moeen Ul Islam",
+      "Cheng Ouyang",
+      "Xinda Qi",
+      "Azlan Zahid",
+      "Xiaobo Tan"
+    ],
+    "author_count": 6,
+    "summary": "This paper presents a novel, modular, cable-driven soft robotic arm featuring multi-segment reconfigurability. The proposed architecture enables a stackable system with independent segment control, allowing scalable adaptation to diverse structural and application requirements. The system is fabricated from soft silicone material and incorporates embedded tendon-routing channels with a protective dual-helical tendon structure. Experimental results showed that modular stacking substantially expanded the reachable workspace: relative to the single-segment arm, the three-segment configuration ...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-02T23:29:43Z",
+    "updated": "2026-03-02T23:29:43Z",
+    "abs_url": "https://arxiv.org/abs/2603.02468v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02468v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02443v1",
+    "title": "Safe Whole-Body Loco-Manipulation via Combined Model and Learning-based Control",
+    "authors": [
+      "Alexander Schperberg",
+      "Yeping Wang",
+      "Stefano Di Cairano"
+    ],
+    "author_count": 3,
+    "summary": "Simultaneous locomotion and manipulation enables robots to interact with their environment beyond the constraints of a fixed base. However, coordinating legged locomotion with arm manipulation, while considering safety and compliance during contact interaction remains challenging. To this end, we propose a whole-body controller that combines a model-based admittance control for the manipulator arm with a Reinforcement Learning (RL) policy for legged locomotion. The admittance controller maps external wrenches--such as those applied by a human during physical interaction--into desired end-ef...",
+    "categories": [
+      "cs.RO",
+      "cs.HC",
+      "eess.SY"
+    ],
+    "published": "2026-03-02T22:31:12Z",
+    "updated": "2026-03-02T22:31:12Z",
+    "abs_url": "https://arxiv.org/abs/2603.02443v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02443v1",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2603.02430v1",
+    "title": "A Unified Revisit of Temperature in Classification-Based Knowledge Distillation",
+    "authors": [
+      "Logan Frank",
+      "Jim Davis"
+    ],
+    "author_count": 2,
+    "summary": "A central idea of knowledge distillation is to expose relational structure embedded in the teacher's weights for the student to learn, which is often facilitated using a temperature parameter. Despite its widespread use, there remains limited understanding on how to select an appropriate temperature value, or how this value depends on other training elements such as optimizer, teacher pretraining/finetuning, etc. In practice, temperature is commonly chosen via grid search or by adopting values from prior work, which can be time-consuming or may lead to suboptimal student performance when tr...",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "published": "2026-03-02T22:16:01Z",
+    "updated": "2026-03-02T22:16:01Z",
+    "abs_url": "https://arxiv.org/abs/2603.02430v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02430v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.02426v1",
+    "title": "Personalized Multi-Agent Average Reward TD-Learning via Joint Linear Approximation",
+    "authors": [
+      " Leo",
+      " Wang",
+      "Pengkun Yang",
+      "Lili Su"
+    ],
+    "author_count": 4,
+    "summary": "We study personalized multi-agent average reward TD learning, in which a collection of agents interacts with different environments and jointly learns their respective value functions. We focus on the setting where there exists a shared linear representation, and the agents' optimal weights collectively lie in an unknown linear subspace. Inspired by the recent success of personalized federated learning (PFL), we study the convergence of cooperative single-timescale TD learning in which agents iteratively estimate the common subspace and local heads. We showed that this decomposition can fil...",
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2026-03-02T22:10:56Z",
+    "updated": "2026-03-02T22:10:56Z",
+    "abs_url": "https://arxiv.org/abs/2603.02426v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02426v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "id": "2603.02411v1",
+    "title": "From Fewer Samples to Fewer Bits: Reframing Dataset Distillation as Joint Optimization of Precision and Compactness",
+    "authors": [
+      "My H. Dinh",
+      "Aditya Sant",
+      "Akshay Malhotra",
+      "Keya Patani",
+      "Shahab Hamidi-Rad"
+    ],
+    "author_count": 5,
+    "summary": "Dataset Distillation (DD) compresses large datasets into compact synthetic ones that maintain training performance. However, current methods mainly target sample reduction, with limited consideration of data precision and its impact on efficiency. We propose Quantization-aware Dataset Distillation (QuADD), a unified framework that jointly optimizes dataset compactness and precision under fixed bit budgets. QuADD integrates a differentiable quantization module within the distillation loop, enabling end-to-end co-optimization of synthetic samples and quantization parameters. Guided by the rat...",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2026-03-02T21:46:10Z",
+    "updated": "2026-03-02T21:46:10Z",
+    "abs_url": "https://arxiv.org/abs/2603.02411v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02411v1",
+    "tags": [
+      "efficient-inference"
+    ]
+  },
+  {
+    "id": "2603.02376v1",
+    "title": "CUCo: An Agentic Framework for Compute and Communication Co-design",
+    "authors": [
+      "Bodun Hu",
+      "Yoga Sri Varshan",
+      "Saurabh Agarwal",
+      "Aditya Akella"
+    ],
+    "author_count": 4,
+    "summary": "Custom CUDA kernel development is essential for maximizing GPU utilization in large-scale distributed LLM training and inference, yet manually writing kernels that jointly leverage both computation and communication remains a labor-intensive and error-prone process. Prior work on kernel optimization has focused almost exclusively on computation, leaving communication kernels largely untouched even though they constitute a significant share of total execution time. We introduce CUCo, a training-free agent-driven workflow that automatically generates high-performance CUDA kernels that jointly...",
+    "categories": [
+      "cs.DC",
+      "cs.AR",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "published": "2026-03-02T20:35:50Z",
+    "updated": "2026-03-02T20:35:50Z",
+    "abs_url": "https://arxiv.org/abs/2603.02376v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02376v1",
+    "tags": [
+      "agents"
+    ]
+  },
+  {
+    "id": "2603.02345v1",
+    "title": "RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection",
+    "authors": [
+      "Sami Abuzakuk",
+      "Lucas Crijns",
+      "Anne-Marie Kermarrec",
+      "Rafael Pires",
+      "Martijn de Vos"
+    ],
+    "author_count": 5,
+    "summary": "Infrastructure as code (IaC) tools automate cloud provisioning but verifying that deployed systems remain consistent with the IaC specifications remains challenging. Such configuration drift occurs because of bugs in the IaC specification, manual changes, or system updates. Large language model (LLM)-based agentic AI systems can automate the analysis of large volumes of telemetry data, making them suitable for the detection of configuration drift. However, existing agentic systems implicitly assume that the tools they invoke always return correct outputs, making them vulnerable to erroneous...",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "published": "2026-03-02T19:28:27Z",
+    "updated": "2026-03-02T19:28:27Z",
+    "abs_url": "https://arxiv.org/abs/2603.02345v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02345v1",
+    "tags": [
+      "agents",
+      "llm"
+    ]
+  },
+  {
     "id": "2603.02190v1",
     "title": "Sketch2Colab: Sketch-Conditioned Multi-Human Animation via Controllable Flow Distillation",
     "authors": [
@@ -44,6 +1819,31 @@
     "pdf_url": "https://arxiv.org/pdf/2603.02176v1",
     "tags": [
       "agents"
+    ]
+  },
+  {
+    "id": "2603.02297v1",
+    "title": "ZeroDayBench: Evaluating LLM Agents on Unseen Zero-Day Vulnerabilities for Cyberdefense",
+    "authors": [
+      "Nancy Lau",
+      "Louis Sloot",
+      "Jyoutir Raj",
+      "Giuseppe Marco Boscardin",
+      "Evan Harris"
+    ],
+    "author_count": 9,
+    "summary": "Large language models (LLMs) are increasingly being deployed as software engineering agents that autonomously contribute to repositories. A major benefit these agents present is their ability to find and patch security vulnerabilities in the codebases they oversee. To estimate the capability of agents in this domain, we introduce ZeroDayBench, a benchmark where LLM agents find and patch 22 novel critical vulnerabilities in open-source codebases. We focus our efforts on three popular frontier agentic LLMs: GPT-5.2, Claude Sonnet 4.5, and Grok 4.1. We find that frontier LLMs are not yet capab...",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "published": "2026-03-02T18:21:22Z",
+    "updated": "2026-03-02T18:21:22Z",
+    "abs_url": "https://arxiv.org/abs/2603.02297v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02297v1",
+    "tags": [
+      "agents",
+      "llm"
     ]
   },
   {
@@ -216,6 +2016,27 @@
     "tags": [
       "agents",
       "llm"
+    ]
+  },
+  {
+    "id": "2603.02291v1",
+    "title": "Goal-Oriented Semantic Communication for ISAC-Enabled Robotic Obstacle Avoidance",
+    "authors": [
+      "Wenjie Liu",
+      "Yansha Deng",
+      "Henk Wymeersch"
+    ],
+    "author_count": 3,
+    "summary": "We investigate an integrated sensing and communication (ISAC)-enabled BS for the unmanned aerial vehicle (UAV) obstacle avoidance task, and propose a goal-oriented semantic communication (GOSC) framework for the BS to transmit sensing and command and control (C&C) signals efficiently and effectively. Our GOSC framework establishes a closed loop for sensing-C&C generation-sensing and C&C transmission: For sensing, a Kalman filter (KF) is applied to continuously predict UAV positions, mitigating the reliance of UAV position acquisition on continuous sensing signal transmission, and enhancing ...",
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2026-03-02T16:15:02Z",
+    "updated": "2026-03-02T16:15:02Z",
+    "abs_url": "https://arxiv.org/abs/2603.02291v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.02291v1",
+    "tags": [
+      "robotics"
     ]
   },
   {
@@ -1272,22 +3093,23 @@
     ]
   },
   {
-    "id": "2603.01404v1",
+    "id": "2603.01404v2",
     "title": "D-GVIO: A Buffer-Driven and Efficient Decentralized GNSS-Visual-Inertial State Estimator for Multi-Agent Systems",
     "authors": [
       "Yarong Luo",
       "Wentao Lu",
-      "Chi Guo"
+      "Chi Guo",
+      "Ming Li"
     ],
-    "author_count": 3,
+    "author_count": 4,
     "summary": "Cooperative localization is essential for swarm applications like collaborative exploration and search-and-rescue missions. However, maintaining real-time capability, robustness, and computational efficiency on resource-constrained platforms presents significant challenges. To address these challenges, we propose D-GVIO, a buffer-driven and fully decentralized GNSS-Visual-Inertial Odometry (GVIO) framework that leverages a novel buffering strategy to support efficient and robust distributed state estimation. The proposed framework is characterized by four core mechanisms. Firstly, through c...",
     "categories": [
       "cs.RO"
     ],
     "published": "2026-03-02T03:11:39Z",
-    "updated": "2026-03-02T03:11:39Z",
-    "abs_url": "https://arxiv.org/abs/2603.01404v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01404v1",
+    "updated": "2026-03-03T07:45:19Z",
+    "abs_url": "https://arxiv.org/abs/2603.01404v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.01404v2",
     "tags": [
       "agents",
       "efficient-inference",
@@ -1693,1376 +3515,6 @@
     "pdf_url": "https://arxiv.org/pdf/2603.01221v1",
     "tags": [
       "agents"
-    ]
-  },
-  {
-    "id": "2603.01213v1",
-    "title": "Can AI Agents Agree?",
-    "authors": [
-      "Fr\u00e9d\u00e9ric Berdoz",
-      "Leonardo Rugli",
-      "Roger Wattenhofer"
-    ],
-    "author_count": 3,
-    "summary": "Large language models are increasingly deployed as cooperating agents, yet their behavior in adversarial consensus settings has not been systematically studied. We evaluate LLM-based agents on a Byzantine consensus game over scalar values using a synchronous all-to-all simulation. We test consensus in a no-stake setting where agents have no preferences over the final value, so evaluation focuses on agreement rather than value optimality. Across hundreds of simulations spanning model sizes, group sizes, and Byzantine fractions, we find that valid agreement is not reliable even in benign sett...",
-    "categories": [
-      "cs.MA",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T18:18:59Z",
-    "updated": "2026-03-01T18:18:59Z",
-    "abs_url": "https://arxiv.org/abs/2603.01213v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01213v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01209v1",
-    "title": "Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics",
-    "authors": [
-      "Victor May",
-      "Aaditya Salgarkar",
-      "Yishan Wang",
-      "Diganta Misra",
-      "Huu Nguyen"
-    ],
-    "author_count": 5,
-    "summary": "Tool-augmented LLMs are increasingly deployed as agents that interleave natural-language reasoning with executable Python actions, as in CodeAct-style frameworks. In deployment, these agents rely on runtime state that persists across steps. By contrast, common training pipelines treat agent traces as token sequences, with execution semantics left implicit. This raises a data-centric question: Is state persistence merely an inference-time scaffold, or can models learn to exploit it when training data exposes the corresponding execution semantics? We isolate state persistence as a training-ti...",
-    "categories": [
-      "cs.AI",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T18:08:02Z",
-    "updated": "2026-03-01T18:08:02Z",
-    "abs_url": "https://arxiv.org/abs/2603.01209v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01209v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01203v1",
-    "title": "How Well Does Agent Development Reflect Real-World Work?",
-    "authors": [
-      "Zora Zhiruo Wang",
-      "Sanidhya Vijayvargiya",
-      "Aspen Chen",
-      "Hanmo Zhang",
-      "Venu Arvind Arangarajan"
-    ],
-    "author_count": 10,
-    "summary": "AI agents are increasingly developed and evaluated on benchmarks relevant to human work, yet it remains unclear how representative these benchmarking efforts are of the labor market as a whole. In this work, we systematically study the relationship between agent development efforts and the distribution of real-world human work by mapping benchmark instances to work domains and skills. We first analyze 43 benchmarks and 72,342 tasks, measuring their alignment with human employment and capital allocation across all 1,016 real-world occupations in the U.S. labor market. We reveal substantial m...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-03-01T17:55:49Z",
-    "updated": "2026-03-01T17:55:49Z",
-    "abs_url": "https://arxiv.org/abs/2603.01203v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01203v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01189v1",
-    "title": "Agent-Based Simulation of Trust Development in Human-Robot Teams: An Empirically-Validated Framework",
-    "authors": [
-      "Ravi Kalluri"
-    ],
-    "author_count": 1,
-    "summary": "This paper presents an empirically grounded agent-based model capturing trust dynamics, workload distribution, and collaborative performance in human-robot teams. The model, implemented in NetLogo 6.4.0, simulates teams of 2--10 agents performing tasks of varying complexity. We validate against Hancock et al.'s (2021) meta-analysis, achieving interval validity for 4 of 8 trust antecedent categories and strong ordinal validity (Spearman \\r{ho}=0.833\u03c1= 0.833 \\r{ho}=0.833). Sensitivity analysis using OFAT and full factorial designs (n=50n = 50 n=50 replications per condition) reveals robot rel...",
-    "categories": [
-      "cs.RO",
-      "cs.HC"
-    ],
-    "published": "2026-03-01T17:05:28Z",
-    "updated": "2026-03-01T17:05:28Z",
-    "abs_url": "https://arxiv.org/abs/2603.01189v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01189v1",
-    "tags": [
-      "agents",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01160v1",
-    "title": "Semantic XPath: Structured Agentic Memory Access for Conversational AI",
-    "authors": [
-      "Yifan Simon Liu",
-      "Ruifan Wu",
-      "Liam Gallagher",
-      "Jiazhou Liang",
-      "Armin Toroghi"
-    ],
-    "author_count": 6,
-    "summary": "Conversational AI (ConvAI) agents increasingly maintain structured memory to support long-term, task-oriented interactions. In-context memory approaches append the growing history to the model input, which scales poorly under context-window limits. RAG-based methods retrieve request-relevant information, but most assume flat memory collections and ignore structure. We propose Semantic XPath, a tree-structured memory module to access and update structured conversational memory. Semantic XPath improves performance over flat-RAG baselines by 176.7% while using only 9.1% of the tokens required ...",
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "published": "2026-03-01T15:56:08Z",
-    "updated": "2026-03-01T15:56:08Z",
-    "abs_url": "https://arxiv.org/abs/2603.01160v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01160v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01153v1",
-    "title": "RAG-RUSS: A Retrieval-Augmented Robotic Ultrasound for Autonomous Carotid Examination",
-    "authors": [
-      "Dianye Huang",
-      "Ziping Cong",
-      "Nassir Navab",
-      "Zhongliang Jiang"
-    ],
-    "author_count": 4,
-    "summary": "Robotic ultrasound (US) has recently attracted increasing attention as a means to overcome the limitations of conventional US examinations, such as the strong operator dependence. However, the decision-making process of existing methods is often either rule-based or relies on end-to-end learning models that operate as black boxes. This has been seen as a main limit for clinical acceptance and raises safety concerns for widespread adoption in routine practice. To tackle this challenge, we introduce the RAG-RUSS, an interpretable framework capable of performing a full carotid examination in a...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T15:37:44Z",
-    "updated": "2026-03-01T15:37:44Z",
-    "abs_url": "https://arxiv.org/abs/2603.01153v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01153v1",
-    "tags": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01152v1",
-    "title": "DeepResearch-9K: A Challenging Benchmark Dataset of Deep-Research Agent",
-    "authors": [
-      "Tongzhou Wu",
-      "Yuhao Wang",
-      "Xinyu Ma",
-      "Xiuqiang He",
-      "Shuaiqiang Wang"
-    ],
-    "author_count": 7,
-    "summary": "Deep-research agents are capable of executing multi-step web exploration, targeted retrieval, and sophisticated question answering. Despite their powerful capabilities, deep-research agents face two critical bottlenecks: (1) the lack of large-scale, challenging datasets with real-world difficulty, and (2) the absence of accessible, open-source frameworks for data synthesis and agent training. To bridge these gaps, we first construct DeepResearch-9K, a large-scale challenging dataset specifically designed for deep-research scenarios built from open-source multi-hop question-answering (QA) da...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-03-01T15:36:10Z",
-    "updated": "2026-03-01T15:36:10Z",
-    "abs_url": "https://arxiv.org/abs/2603.01152v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01152v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01151v1",
-    "title": "D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping",
-    "authors": [
-      "Haozhe Lou",
-      "Mingtong Zhang",
-      "Haoran Geng",
-      "Hanyang Zhou",
-      "Sicheng He"
-    ],
-    "author_count": 12,
-    "summary": "Simulation provides a cost-effective and flexible platform for data generation and policy learning to develop robotic systems. However, bridging the gap between simulation and real-world dynamics remains a significant challenge, especially in physical parameter identification. In this work, we introduce a real-to-sim-to-real engine that leverages the Gaussian Splat representations to build a differentiable engine, enabling object mass identification from real-world visual observations and robot control signals, while enabling grasping policy learning simultaneously. Through optimizing the m...",
-    "categories": [
-      "cs.RO",
-      "cs.CV",
-      "cs.GR"
-    ],
-    "published": "2026-03-01T15:32:04Z",
-    "updated": "2026-03-01T15:32:04Z",
-    "abs_url": "https://arxiv.org/abs/2603.01151v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01151v1",
-    "tags": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01144v1",
-    "title": "A Decomposition Framework for Certifiably Optimal Orthogonal Sparse PCA",
-    "authors": [
-      "Difei Cheng",
-      "Qiao Hu"
-    ],
-    "author_count": 2,
-    "summary": "Sparse Principal Component Analysis (SPCA) is an important technique for high-dimensional data analysis, improving interpretability by imposing sparsity on principal components. However, existing methods often fail to simultaneously guarantee sparsity, orthogonality, and optimality of the principal components. To address this challenge, this work introduces a novel Sparse Principal Component Analysis (SPCA) algorithm called \\textsc{GS-SPCA} (SPCA with Gram-Schmidt Orthogonalization), which simultaneously enforces sparsity, orthogonality, and optimality. However, the original GS-SPCA algorit...",
-    "categories": [
-      "cs.LG"
-    ],
-    "published": "2026-03-01T15:09:37Z",
-    "updated": "2026-03-01T15:09:37Z",
-    "abs_url": "https://arxiv.org/abs/2603.01144v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01144v1",
-    "tags": [
-      "efficient-inference"
-    ]
-  },
-  {
-    "id": "2603.01131v1",
-    "title": "MedCollab: Causal-Driven Multi-Agent Collaboration for Full-Cycle Clinical Diagnosis via IBIS-Structured Argumentation",
-    "authors": [
-      "Yuqi Zhan",
-      "Xinyue Wu",
-      "Tianyu Lin",
-      "Yutong Bao",
-      "Xiaoyu Wang"
-    ],
-    "author_count": 9,
-    "summary": "Large language models (LLMs) have shown promise in healthcare applications, however, their use in clinical practice is still limited by diagnostic hallucinations and insufficiently interpretable reasoning. We present MedCollab, a novel multi-agent framework that emulates the hierarchical consultation workflow of modern hospitals to autonomously navigate the full-cycle diagnostic process. The framework incorporates a dynamic specialist recruitment mechanism that adaptively assembles clinical and examination agents according to patient-specific symptoms and examination results. To ensure the ...",
-    "categories": [
-      "cs.MA",
-      "cs.AI"
-    ],
-    "published": "2026-03-01T14:25:58Z",
-    "updated": "2026-03-01T14:25:58Z",
-    "abs_url": "https://arxiv.org/abs/2603.01131v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01131v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01128v1",
-    "title": "A Deployable Bio-inspired Compliant Leg Design for Enhanced Leaping in Quadruped Robots",
-    "authors": [
-      "Yiyang Chen",
-      "Yuxin Liu",
-      "Jinzheng Zhou",
-      "Fanxin Wang",
-      "Qinglei Bu"
-    ],
-    "author_count": 7,
-    "summary": "Quadruped robots are becoming increasingly essential for various applications, including industrial inspection and catastrophe search and rescue. These scenarios require robots to possess enhanced agility and obstacle-navigation skills. Nonetheless, the performance of current platforms is often constrained by insufficient peak motor power, limiting their ability to perform explosive jumps. To address this challenge, this paper proposes a bio-inspired method that emulates the energy-storage mechanism found in froghopper legs. We designed a Deployable Compliant Leg (DCL) utilizing a specializ...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T14:22:11Z",
-    "updated": "2026-03-01T14:22:11Z",
-    "abs_url": "https://arxiv.org/abs/2603.01128v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01128v1",
-    "tags": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01122v1",
-    "title": "Fast Confidence-Aware Human Prediction via Hardware-accelerated Bayesian Inference for Safe Robot Navigation",
-    "authors": [
-      "Michael Lu",
-      "Minh Bui",
-      "Xubo Lyu",
-      "Mo Chen"
-    ],
-    "author_count": 4,
-    "summary": "As robots increasingly integrate into everyday environments, ensuring their safe navigation around humans becomes imperative. Efficient and safe motion planning requires robots to account for human behavior, particularly in constrained spaces such as grocery stores or care homes, where interactions with multiple individuals are common. Prior research has employed Bayesian frameworks to model human rationality based on navigational intent, enabling the prediction of probabilistic trajectories for planning purposes. In this work, we present a simple yet novel approach for confidence-aware pre...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T14:13:58Z",
-    "updated": "2026-03-01T14:13:58Z",
-    "abs_url": "https://arxiv.org/abs/2603.01122v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01122v1",
-    "tags": [
-      "efficient-inference",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01121v1",
-    "title": "HVR-Met: A Hypothesis-Verification-Replaning Agentic System for Extreme Weather Diagnosis",
-    "authors": [
-      "Shuo Tang",
-      "Jiadong Zhang",
-      "Jian Xu",
-      "Gengxian Zhou",
-      "Qizhao Jin"
-    ],
-    "author_count": 14,
-    "summary": "While deep learning-based weather forecasting paradigms have made significant strides, addressing extreme weather diagnostics remains a formidable challenge. This gap exists primarily because the diagnostic process demands sophisticated multi-step logical reasoning, dynamic tool invocation, and expert-level prior judgment. Although agents possess inherent advantages in task decomposition and autonomous execution, current architectures are still hampered by critical bottlenecks: inadequate expert knowledge integration, a lack of professional-grade iterative reasoning loops, and the absence o...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-03-01T14:13:11Z",
-    "updated": "2026-03-01T14:13:11Z",
-    "abs_url": "https://arxiv.org/abs/2603.01121v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01121v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01113v1",
-    "title": "From Dialogue to Execution: Mixture-of-Agents Assisted Interactive Planning for Behavior Tree-Based Long-Horizon Robot Execution",
-    "authors": [
-      "Kanata Suzuki",
-      "Kazuki Hori",
-      "Haruka Miyoshi",
-      "Shuhei Kurita",
-      "Tetsuya Ogata"
-    ],
-    "author_count": 5,
-    "summary": "Interactive task planning with large language models (LLMs) enables robots to generate high-level action plans from natural language instructions. However, in long-horizon tasks, such approaches often require many questions, increasing user burden. Moreover, flat plan representations become difficult to manage as task complexity grows. We propose a framework that integrates Mixture-of-Agents (MoA)-based proxy answering into interactive planning and generates Behavior Trees (BTs) for structured long-term execution. The MoA consists of multiple LLM-based expert agents that answer general or d...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T13:54:51Z",
-    "updated": "2026-03-01T13:54:51Z",
-    "abs_url": "https://arxiv.org/abs/2603.01113v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01113v1",
-    "tags": [
-      "agents",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.01104v1",
-    "title": "Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI",
-    "authors": [
-      "Sicheng Yang",
-      "Yukai Huang",
-      "Weitong Cai",
-      "Shitong Sun",
-      "Fengyi Fang"
-    ],
-    "author_count": 11,
-    "summary": "What if accessing the web did not require a screen, a stable desk, or even free hands? For people navigating crowded cities, living with low vision, or experiencing cognitive overload, smart glasses coupled with AI agents could turn the web into an always-on assistive layer over daily life. We present Egocentric Co-Pilot, a web-native neuro-symbolic framework that runs on smart glasses and uses a Large Language Model (LLM) to orchestrate a toolbox of perception, reasoning, and web tools. An egocentric reasoning core combines Temporal Chain-of-Thought with Hierarchical Context Compression to...",
-    "categories": [
-      "cs.HC",
-      "cs.AI",
-      "cs.CV",
-      "cs.CY"
-    ],
-    "published": "2026-03-01T13:43:04Z",
-    "updated": "2026-03-01T13:43:04Z",
-    "abs_url": "https://arxiv.org/abs/2603.01104v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01104v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01089v1",
-    "title": "CARD: Towards Conditional Design of Multi-agent Topological Structures",
-    "authors": [
-      "Tongtong Wu",
-      "Yanming Li",
-      "Ziye Tang",
-      "Chen Jiang",
-      "Linhao Luo"
-    ],
-    "author_count": 8,
-    "summary": "Large language model (LLM)-based multi-agent systems have shown strong capabilities in tasks such as code generation and collaborative reasoning. However, the effectiveness and robustness of these systems critically depend on their communication topology, which is often fixed or statically learned, ignoring real-world dynamics such as model upgrades, API (or tool) changes, or knowledge source variability. To address this limitation, we propose CARD (Conditional Agentic Graph Designer), a conditional graph-generation framework that instantiates AMACP, a protocol for adaptive multi-agent comm...",
-    "categories": [
-      "cs.CL",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T13:02:36Z",
-    "updated": "2026-03-01T13:02:36Z",
-    "abs_url": "https://arxiv.org/abs/2603.01089v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01089v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01059v1",
-    "title": "GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant",
-    "authors": [
-      "Zhuokang Shen",
-      "Yifan Wang",
-      "Hanyu Chen",
-      "Wenxuan Huang",
-      "Shaohui Lin"
-    ],
-    "author_count": 5,
-    "summary": "Recent advances in large language models (LLMs) have enabled increasingly capable chatbots. However, most existing systems focus on single-user settings and do not generalize well to multi-user group chats, where agents require more proactive and accurate intervention under complex, evolving contexts. Existing approaches typically rely on LLMs for both reasoning and generation, leading to high token consumption, limited scalability, and potential privacy risks. To address these challenges, we propose GroupGPT, a token-efficient and privacy-preserving agentic framework for multi-user chat as...",
-    "categories": [
-      "cs.CL"
-    ],
-    "published": "2026-03-01T11:29:25Z",
-    "updated": "2026-03-01T11:29:25Z",
-    "abs_url": "https://arxiv.org/abs/2603.01059v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01059v1",
-    "tags": [
-      "agents",
-      "efficient-inference",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.01053v1",
-    "title": "Turning Black Box into White Box: Dataset Distillation Leaks",
-    "authors": [
-      "Huajie Chen",
-      "Tianqing Zhu",
-      "Yuchen Zhong",
-      "Yang Zhang",
-      "Shang Wang"
-    ],
-    "author_count": 10,
-    "summary": "Dataset distillation compresses a large real dataset into a small synthetic one, enabling models trained on the synthetic data to achieve performance comparable to those trained on the real data. Although synthetic datasets are assumed to be privacy-preserving, we show that existing distillation methods can cause severe privacy leakage because synthetic datasets implicitly encode the weight trajectories of the distilled model, they become over-informative and exploitable by adversaries. To expose this risk, we introduce the Information Revelation Attack (IRA) against state-of-the-art distil...",
-    "categories": [
-      "cs.CR",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T11:21:28Z",
-    "updated": "2026-03-01T11:21:28Z",
-    "abs_url": "https://arxiv.org/abs/2603.01053v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01053v1",
-    "tags": [
-      "efficient-inference"
-    ]
-  },
-  {
-    "id": "2603.01050v1",
-    "title": "MM-DeepResearch: A Simple and Effective Multimodal Agentic Search Baseline",
-    "authors": [
-      "Huanjin Yao",
-      "Qixiang Yin",
-      "Min Yang",
-      "Ziwang Zhao",
-      "Yibo Wang"
-    ],
-    "author_count": 8,
-    "summary": "We aim to develop a multimodal research agent capable of explicit reasoning and planning, multi-tool invocation, and cross-modal information synthesis, enabling it to conduct deep research tasks. However, we observe three main challenges in developing such agents: (1) scarcity of search-intensive multimodal QA data, (2) lack of effective search trajectories, and (3) prohibitive cost of training with online search APIs. To tackle them, we first propose Hyper-Search, a hypergraph-based QA generation method that models and connects visual and textual nodes within and across modalities, enablin...",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "published": "2026-03-01T11:13:22Z",
-    "updated": "2026-03-01T11:13:22Z",
-    "abs_url": "https://arxiv.org/abs/2603.01050v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01050v1",
-    "tags": [
-      "agents",
-      "multimodal"
-    ]
-  },
-  {
-    "id": "2603.01045v1",
-    "title": "Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems",
-    "authors": [
-      "Yuzhe Zhang",
-      "Feiran Liu",
-      "Yi Shan",
-      "Xinyi Huang",
-      "Xin Yang"
-    ],
-    "author_count": 11,
-    "summary": "Large language models are increasingly deployed in multi-agent systems to overcome context limitations by distributing information across agents. Yet whether agents can reliably compute with distributed information -- rather than merely exchange it -- remains an open question. We introduce Silo-Bench, a role-agnostic benchmark of 30 algorithmic tasks across three communication complexity levels, evaluating 54 configurations over 1,620 experiments. Our experiments expose a fundamental Communication-Reasoning Gap: agents spontaneously form task-appropriate coordination topologies and exchange...",
-    "categories": [
-      "cs.MA",
-      "cs.AI"
-    ],
-    "published": "2026-03-01T10:56:00Z",
-    "updated": "2026-03-01T10:56:00Z",
-    "abs_url": "https://arxiv.org/abs/2603.01045v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01045v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.01024v1",
-    "title": "SimAB: Simulating A/B Tests with Persona-Conditioned AI Agents for Rapid Design Evaluation",
-    "authors": [
-      "Tim Rieder",
-      "Marian Schneider",
-      "Mario Truss",
-      "Vitaly Tsaplin",
-      "Alina Rublea"
-    ],
-    "author_count": 9,
-    "summary": "A/B testing is a standard method for validating design decisions, yet its reliance on real user traffic limits iteration speed and makes certain experiments impractical. We present SimAB, a system that reframes A/B testing as a fast, privacy-preserving simulation using persona-conditioned AI agents. Given design screenshots and a conversion goal, SimAB generates user personas, deploys them as agents that state their preference, aggregates results, and synthesizes rationales. Through a formative study with experimentation practitioners, we identified scenarios where traffic constraints hinde...",
-    "categories": [
-      "cs.HC",
-      "cs.AI",
-      "cs.MA"
-    ],
-    "published": "2026-03-01T10:08:27Z",
-    "updated": "2026-03-01T10:08:27Z",
-    "abs_url": "https://arxiv.org/abs/2603.01024v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01024v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.01023v1",
-    "title": "An Open-Source Modular Benchmark for Diffusion-Based Motion Planning in Closed-Loop Autonomous Driving",
-    "authors": [
-      "Yun Li",
-      "Simon Thompson",
-      "Yidu Zhang",
-      "Ehsan Javanmardi",
-      "Manabu Tsukada"
-    ],
-    "author_count": 5,
-    "summary": "Diffusion-based motion planners have achieved state-of-the-art results on benchmarks such as nuPlan, yet their evaluation within closed-loop production autonomous driving stacks remains largely unexplored. Existing evaluations abstract away ROS 2 communication latency and real-time scheduling constraints, while monolithic ONNX deployment freezes all solver parameters at export time. We present an open-source modular benchmark that addresses both gaps: using ONNX GraphSurgeon, we decompose a monolithic 18,398 node diffusion planner into three independently executable modules and reimplement ...",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "published": "2026-03-01T10:07:35Z",
-    "updated": "2026-03-01T10:07:35Z",
-    "abs_url": "https://arxiv.org/abs/2603.01023v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.01023v1",
-    "tags": [
-      "agents",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00993v1",
-    "title": "CollabEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration",
-    "authors": [
-      "Yiyue Qian",
-      "Shinan Zhang",
-      "Yun Zhou",
-      "Haibo Ding",
-      "Diego Socolinsky"
-    ],
-    "author_count": 6,
-    "summary": "Large Language Models (LLMs) have revolutionized AI-generated content evaluation, with the LLM-as-a-Judge paradigm becoming increasingly popular. However, current single-LLM evaluation approaches face significant challenges, including inconsistent judgments and inherent biases from pre-training data. To address these limitations, we propose CollabEval, a novel multi-agent evaluation framework that implements a three-phase Collaborative Evaluation process: initial evaluation, multi-round discussion, and final judgment. Unlike existing approaches that rely on competitive debate or single-mode...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-03-01T08:45:13Z",
-    "updated": "2026-03-01T08:45:13Z",
-    "abs_url": "https://arxiv.org/abs/2603.00993v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00993v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00991v1",
-    "title": "Tracking Capabilities for Safer Agents",
-    "authors": [
-      "Martin Odersky",
-      "Yaoyu Zhao",
-      "Yichen Xu",
-      "Oliver Bra\u010devac",
-      "Cao Nguyen Pham"
-    ],
-    "author_count": 5,
-    "summary": "AI agents that interact with the real world through tool calls pose fundamental safety challenges: agents might leak private information, cause unintended side effects, or be manipulated through prompt injection. To address these challenges, we propose to put the agent in a programming-language-based \"safety harness\": instead of calling tools directly, agents express their intentions as code in a capability-safe language: Scala 3 with capture checking. Capabilities are program variables that regulate access to effects and resources of interest. Scala's type system tracks capabilities static...",
-    "categories": [
-      "cs.AI",
-      "cs.PL"
-    ],
-    "published": "2026-03-01T08:39:37Z",
-    "updated": "2026-03-01T08:39:37Z",
-    "abs_url": "https://arxiv.org/abs/2603.00991v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00991v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00977v1",
-    "title": "HiMAC: Hierarchical Macro-Micro Learning for Long-Horizon LLM Agents",
-    "authors": [
-      "Hongbo Jin",
-      "Rongpeng Zhu",
-      "Jiayu Ding",
-      "Wenhao Zhang",
-      "Ge Li"
-    ],
-    "author_count": 5,
-    "summary": "Large language model (LLM) agents have recently demonstrated strong capabilities in interactive decision-making, yet they remain fundamentally limited in long-horizon tasks that require structured planning and reliable execution. Existing approaches predominantly rely on flat autoregressive policies, where high-level reasoning and low-level actions are generated within a single token sequence, leading to inefficient exploration and severe error propagation over extended trajectories. In this work, we propose HiMAC, a hierarchical agentic RL framework that explicitly decomposes long-horizon ...",
-    "categories": [
-      "cs.AI",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T08:09:03Z",
-    "updated": "2026-03-01T08:09:03Z",
-    "abs_url": "https://arxiv.org/abs/2603.00977v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00977v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00972v1",
-    "title": "MiniUGV$_2$: A Compact UAV-Deployable Tracked Ground Vehicle with Manipulation Capabilities",
-    "authors": [
-      "Durgakant Pushp",
-      "Swapnil Kalhapure",
-      "Shaekh Mohammad Shithil",
-      "Lantao Liu"
-    ],
-    "author_count": 4,
-    "summary": "Exploring and inspecting \\emph{Hidden Spaces}, defined as environments whose entrances are accessible only to aerial robots but remain unexplored due to geometric constraints, limited flight time, and communication loss, remains a major challenge. We present miniUGV$_2$, a compact UAV-deployable tracked ground vehicle that extends UAV capabilities into confined environments. The system introduces dual articulated arms, integrated LiDAR and depth sensing, and modular electronics for enhanced autonomy. A novel tether module with an electro-permanent magnetic head enables safe deployment, retr...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T07:53:55Z",
-    "updated": "2026-03-01T07:53:55Z",
-    "abs_url": "https://arxiv.org/abs/2603.00972v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00972v1",
-    "tags": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00960v1",
-    "title": "AWE: Adaptive Agents for Dynamic Web Penetration Testing",
-    "authors": [
-      "Akshat Singh Jaswal",
-      "Ashish Baghel"
-    ],
-    "author_count": 2,
-    "summary": "Modern web applications are increasingly produced through AI-assisted development and rapid no-code deployment pipelines, widening the gap between accelerating software velocity and the limited adaptability of existing security tooling. Pattern-driven scanners fail to reason about novel contexts, while emerging LLM-based penetration testers rely on unconstrained exploration, yielding high cost, unstable behavior, and poor reproducibility. We introduce AWE, a memory-augmented multi-agent framework for autonomous web penetration testing that embeds structured, vulnerability-specific analysis ...",
-    "categories": [
-      "cs.CR",
-      "cs.AI"
-    ],
-    "published": "2026-03-01T07:32:42Z",
-    "updated": "2026-03-01T07:32:42Z",
-    "abs_url": "https://arxiv.org/abs/2603.00960v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00960v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00948v1",
-    "title": "HierKick: Hierarchical Reinforcement Learning for Vision-Guided Soccer Robot Control",
-    "authors": [
-      "Yizhi Chen",
-      "Zheng Zhang",
-      "Zhanxiang Cao",
-      "Yihe Chen",
-      "Shengcheng Fu"
-    ],
-    "author_count": 10,
-    "summary": "Controlling soccer robots involves multi-time-scale decision-making, which requires balancing long-term tactical planning and short-term motion execution. Traditional end-to-end reinforcement learning (RL) methods face challenges in complex dynamic environments. This paper proposes HierKick, a vision-guided soccer robot control framework based on dual-frequency hierarchical RL. The framework adopts a hierarchical control architecture featuring a 5 Hz high-level policy that integrates YOLOv8 for real-time detection and selects tasks via a coach model, and a pre-trained 50 Hz low-level contro...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T06:41:03Z",
-    "updated": "2026-03-01T06:41:03Z",
-    "abs_url": "https://arxiv.org/abs/2603.00948v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00948v1",
-    "tags": [
-      "robotics",
-      "multimodal",
-      "reinforcement-learning"
-    ]
-  },
-  {
-    "id": "2603.00926v1",
-    "title": "DAM-VLA: A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation",
-    "authors": [
-      "Xiongfeng Peng",
-      "Jiaqian Yu",
-      "Dingzhe Li",
-      "Yixiang Jin",
-      "Lu Xu"
-    ],
-    "author_count": 11,
-    "summary": "In dynamic environments such as warehouses, hospitals, and homes, robots must seamlessly transition between gross motion and precise manipulations to complete complex tasks. However, current Vision-Language-Action (VLA) frameworks, largely adapted from pre-trained Vision-Language Models (VLMs), often struggle to reconcile general task adaptability with the specialized precision required for intricate manipulation. To address this challenge, we propose DAM-VLA, a dynamic action model-based VLA framework. DAM-VLA integrates VLM reasoning with diffusion-based action models specialized for arm ...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-03-01T05:16:04Z",
-    "updated": "2026-03-01T05:16:04Z",
-    "abs_url": "https://arxiv.org/abs/2603.00926v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00926v1",
-    "tags": [
-      "robotics",
-      "multimodal"
-    ]
-  },
-  {
-    "id": "2603.00876v1",
-    "title": "BioProAgent: Neuro-Symbolic Grounding for Constrained Scientific Planning",
-    "authors": [
-      "Yuyang Liu",
-      "Jingya Wang",
-      "Liuzhenghao Lv",
-      "Yonghong Tian"
-    ],
-    "author_count": 4,
-    "summary": "Large language models (LLMs) have demonstrated significant reasoning capabilities in scientific discovery but struggle to bridge the gap to physical execution in wet-labs. In these irreversible environments, probabilistic hallucinations are not merely incorrect, but also cause equipment damage or experimental failure. To address this, we propose \\textbf{BioProAgent}, a neuro-symbolic framework that anchors probabilistic planning in a deterministic Finite State Machine (FSM). We introduce a State-Augmented Planning mechanism that enforces a rigorous \\textit{Design-Verify-Rectify} workflow, e...",
-    "categories": [
-      "cs.AI",
-      "cs.MA"
-    ],
-    "published": "2026-03-01T02:36:01Z",
-    "updated": "2026-03-01T02:36:01Z",
-    "abs_url": "https://arxiv.org/abs/2603.00876v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00876v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00873v1",
-    "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
-    "authors": [
-      "Xuying Ning",
-      "Dongqi Fu",
-      "Tianxin Wei",
-      "Mengting Ai",
-      "Jiaru Zou"
-    ],
-    "author_count": 10,
-    "summary": "With the increasing demand for step-wise, cross-modal, and knowledge-grounded reasoning, multimodal large language models (MLLMs) are evolving beyond the traditional fixed retrieve-then-generate paradigm toward more sophisticated agentic multimodal retrieval-augmented generation (MM-RAG). Existing benchmarks, however, mainly focus on simplified QA with short retrieval chains, leaving adaptive planning and multimodal reasoning underexplored. We present MC-Search, the first benchmark for agentic MM-RAG with long, step-wise annotated reasoning chains spanning five representative reasoning stru...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-03-01T02:25:57Z",
-    "updated": "2026-03-01T02:25:57Z",
-    "abs_url": "https://arxiv.org/abs/2603.00873v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00873v1",
-    "tags": [
-      "agents",
-      "multimodal"
-    ]
-  },
-  {
-    "id": "2603.00858v1",
-    "title": "Artificial Superintelligence May be Useless: Equilibria in the Economy of Multiple AI Agents",
-    "authors": [
-      "Huan Cai",
-      "Ziqing Lu",
-      "Catherine Xu",
-      "Weiyu Xu",
-      "Jie Zheng"
-    ],
-    "author_count": 5,
-    "summary": "With recent development of artificial intelligence, it is more common to adopt AI agents in economic activities. This paper explores the economic actions of agents, including human agents and AI agents, in an economic game of trading products/services, and the equilibria in this economy involving multiple agents. We derive a range of equilibrium results and their corresponding conditions using a Markov chain stationary distribution based model. One distinct feature of our model is that we consider the long-term utility generated by economic activities instead of their short-term benefits. F...",
-    "categories": [
-      "econ.TH",
-      "cs.AI",
-      "cs.IT",
-      "eess.SY"
-    ],
-    "published": "2026-03-01T01:24:49Z",
-    "updated": "2026-03-01T01:24:49Z",
-    "abs_url": "https://arxiv.org/abs/2603.00858v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00858v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00846v1",
-    "title": "Tiny-Critic RAG: Empowering Agentic Fallback with Parameter-Efficient Small Language Models",
-    "authors": [
-      "Yichao Wu",
-      "Penghao Liang",
-      "Yafei Xiang",
-      "Mengwei Yuan",
-      "Jianan Liu"
-    ],
-    "author_count": 8,
-    "summary": "Retrieval-Augmented Generation (RAG) grounds Large Language Models (LLMs) to mitigate factual hallucinations. Recent paradigms shift from static pipelines to Modular and Agentic RAG frameworks, granting models autonomy for multi-hop reasoning or self-correction. However, current reflective RAG heavily relies on massive LLMs as universal evaluators. In high-throughput systems, executing complete forward passes for billion-parameter models merely for binary routing introduces severe computational redundancy. Furthermore, in autonomous agent scenarios, inaccurate retrieval causes models to exp...",
-    "categories": [
-      "cs.IR",
-      "cs.LG"
-    ],
-    "published": "2026-03-01T00:16:31Z",
-    "updated": "2026-03-01T00:16:31Z",
-    "abs_url": "https://arxiv.org/abs/2603.00846v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00846v1",
-    "tags": [
-      "agents",
-      "efficient-inference",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00829v1",
-    "title": "Constitutional Black-Box Monitoring for Scheming in LLM Agents",
-    "authors": [
-      "Simon Storf",
-      "Rich Barton-Cooper",
-      "James Peters-Gill",
-      "Marius Hobbhahn"
-    ],
-    "author_count": 4,
-    "summary": "Safe deployment of Large Language Model (LLM) agents in autonomous settings requires reliable oversight mechanisms. A central challenge is detecting scheming, where agents covertly pursue misaligned goals. One approach to mitigating such risks is LLM-based monitoring: using language models to examine agent behaviors for suspicious actions. We study constitutional black-box monitors: prompted classifiers that detect scheming using only externally observable inputs and outputs, optimized on synthetic data generated from natural-language behavior specifications. We introduce two pipelines for ...",
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "published": "2026-02-28T22:31:32Z",
-    "updated": "2026-02-28T22:31:32Z",
-    "abs_url": "https://arxiv.org/abs/2603.00829v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00829v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00822v1",
-    "title": "ContextCov: Deriving and Enforcing Executable Constraints from Agent Instruction Files",
-    "authors": [
-      "Reshabh K Sharma"
-    ],
-    "author_count": 1,
-    "summary": "As Large Language Model (LLM) agents increasingly execute complex, autonomous software engineering tasks, developers rely on natural language Agent Instructions (e.g., AGENTS.md) to enforce project-specific coding conventions, tooling, and architectural boundaries. However, these instructions are passive text. Agents frequently deviate from them due to context limitations or conflicting legacy code, a phenomenon we term Context Drift. Because agents operate without real-time human supervision, these silent violations rapidly compound into technical debt. To bridge this gap, we introduce Con...",
-    "categories": [
-      "cs.SE",
-      "cs.AI"
-    ],
-    "published": "2026-02-28T21:56:47Z",
-    "updated": "2026-02-28T21:56:47Z",
-    "abs_url": "https://arxiv.org/abs/2603.00822v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00822v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00808v1",
-    "title": "MetaMind: General and Cognitive World Models in Multi-Agent Systems by Meta-Theory of Mind",
-    "authors": [
-      "Lingyi Wang",
-      "Rashed Shelim",
-      "Walid Saad",
-      "Naren Ramakrishna"
-    ],
-    "author_count": 4,
-    "summary": "A major challenge for world models in multi-agent systems is to understand interdependent agent dynamics, predict interactive multi-agent trajectories, and plan over long horizons with collective awareness, without centralized supervision or explicit communication. In this paper, MetaMind, a general and cognitive world model for multi-agent systems that leverages a novel meta-theory of mind (Meta-ToM) framework, is proposed. Through MetaMind, each agent learns not only to predict and plan over its own beliefs, but also to inversely reason goals and beliefs from its own behavior trajectories...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T21:03:48Z",
-    "updated": "2026-02-28T21:03:48Z",
-    "abs_url": "https://arxiv.org/abs/2603.00808v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00808v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00805v1",
-    "title": "NERFIFY: A Multi-Agent Framework for Turning NeRF Papers into Code",
-    "authors": [
-      "Seemandhar Jain",
-      "Keshav Gupta",
-      "Kunal Gupta",
-      "Manmohan Chandraker"
-    ],
-    "author_count": 4,
-    "summary": "The proliferation of neural radiance field (NeRF) research requires significant efforts to reimplement papers before building upon them. We introduce NERFIFY, a multi-agent framework that reliably converts NeRF research papers into trainable Nerfstudio plugins, in contrast to generic paper-to-code methods and frontier models like GPT-5 that usually fail to produce runnable code. NERFIFY achieves domain-specific executability through six key innovations: (1) Context-free grammar (CFG): LLM synthesis is constrained by Nerfstudio formalized as a CFG, ensuring generated code satisfies architect...",
-    "categories": [
-      "cs.CV",
-      "cs.MA"
-    ],
-    "published": "2026-02-28T20:57:32Z",
-    "updated": "2026-02-28T20:57:32Z",
-    "abs_url": "https://arxiv.org/abs/2603.00805v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00805v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00801v1",
-    "title": "The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents",
-    "authors": [
-      "Shrey Shah",
-      "Levent Ozgur"
-    ],
-    "author_count": 2,
-    "summary": "Language agents increasingly act as web-enabled systems that search, browse, and synthesize information from diverse sources. However, these sources can include unreliable or adversarial content, and the robustness of agents to adversarial ranking - where misleading information appears prominently in search results - remains poorly understood. Existing benchmarks evaluate functional navigation or static factuality but cannot causally isolate this vulnerability, and current mitigation strategies for retrieval-augmented generation remain largely untested under such conditions. We introduce Sy...",
-    "categories": [
-      "cs.AI",
-      "cs.IR"
-    ],
-    "published": "2026-02-28T20:27:44Z",
-    "updated": "2026-02-28T20:27:44Z",
-    "abs_url": "https://arxiv.org/abs/2603.00801v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00801v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00785v1",
-    "title": "QANTIS: A Hardware-Validated Quantum Platform for POMDP Planning and Multi-Target Data Association",
-    "authors": [
-      "Bayram Y\u00fcksel Eker",
-      "Suayb S. Arslan",
-      "\u00d6zg\u00fcr Nazl\u0131",
-      "Mustafa Serhat Demirgil",
-      "Furkan Delig\u00f6z"
-    ],
-    "author_count": 5,
-    "summary": "Autonomous navigation under uncertainty requires solving partially observable Markov decision processes (POMDPs) for planning and assigning sensor measurements to tracked targets--a task known as multi-target data association (MTDA). Both problems become computationally demanding at scale: belief conditioning costs $\\mathcal{O}(P(e)^{-1})$ per node under rare evidence, while MTDA is NP-hard. Quantum amplitude amplification can quadratically reduce the belief-update query cost to $\\mathcal{O}(P(e)^{-1/2})$, while QUBO reformulations expose MTDA to quantum and quantum-inspired optimisation he...",
-    "categories": [
-      "quant-ph",
-      "cs.AI"
-    ],
-    "published": "2026-02-28T19:13:44Z",
-    "updated": "2026-02-28T19:13:44Z",
-    "abs_url": "https://arxiv.org/abs/2603.00785v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00785v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00732v1",
-    "title": "UniHM: Unified Dexterous Hand Manipulation with Vision Language Model",
-    "authors": [
-      "Zhenhao Zhang",
-      "Jiaxin Liu",
-      "Ye Shi",
-      "Jingya Wang"
-    ],
-    "author_count": 4,
-    "summary": "Planning physically feasible dexterous hand manipulation is a central challenge in robotic manipulation and Embodied AI. Prior work typically relies on object-centric cues or precise hand-object interaction sequences, foregoing the rich, compositional guidance of open-vocabulary instruction. We introduce UniHM, the first framework for unified dexterous hand manipulation guided by free-form language commands. We propose a Unified Hand-Dexterous Tokenizer that maps heterogeneous dexterous-hand morphologies into a single shared codebook, improving cross-dexterous hand generalization and scalab...",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
-    ],
-    "published": "2026-02-28T16:37:11Z",
-    "updated": "2026-02-28T16:37:11Z",
-    "abs_url": "https://arxiv.org/abs/2603.00732v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00732v1",
-    "tags": [
-      "robotics",
-      "llm",
-      "multimodal"
-    ]
-  },
-  {
-    "id": "2603.00730v1",
-    "title": "MO-MIX: Multi-Objective Multi-Agent Cooperative Decision-Making With Deep Reinforcement Learning",
-    "authors": [
-      "Tianmeng Hu",
-      "Biao Luo",
-      "Chunhua Yang",
-      "Tingwen Huang"
-    ],
-    "author_count": 4,
-    "summary": "Deep reinforcement learning (RL) has been applied extensively to solve complex decision-making problems. In many real-world scenarios, tasks often have several conflicting objectives and may require multiple agents to cooperate, which are the multi-objective multi-agent decision-making problems. However, only few works have been conducted on this intersection. Existing approaches are limited to separate fields and can only handle multi-agent decision-making with a single objective, or multi-objective decision-making with a single agent. In this paper, we propose MO-MIX to solve the multi-ob...",
-    "categories": [
-      "cs.AI",
-      "cs.LG",
-      "cs.MA"
-    ],
-    "published": "2026-02-28T16:25:22Z",
-    "updated": "2026-02-28T16:25:22Z",
-    "abs_url": "https://arxiv.org/abs/2603.00730v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00730v1",
-    "tags": [
-      "agents",
-      "reinforcement-learning"
-    ]
-  },
-  {
-    "id": "2603.00724v1",
-    "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
-    "authors": [
-      "Andrew Zhuoer Feng",
-      "Cunxiang Wang",
-      "Bosi Wen",
-      "Yidong Wang",
-      "Yu Luo"
-    ],
-    "author_count": 7,
-    "summary": "Large language model alignment via reinforcement learning depends critically on reward function quality. However, static, domain-specific reward models are often costly to train and exhibit poor generalization in out-of-distribution scenarios encountered during RL iterations. We present RLAR (Reinforcement Learning from Agent Rewards), an agent-driven framework that dynamically assigns tailored reward functions to individual queries. Specifically, RLAR transforms reward acquisition into a dynamic tool synthesis and invocation task. It leverages LLM agents to autonomously retrieve optimal re...",
-    "categories": [
-      "cs.CL"
-    ],
-    "published": "2026-02-28T16:14:43Z",
-    "updated": "2026-02-28T16:14:43Z",
-    "abs_url": "https://arxiv.org/abs/2603.00724v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00724v1",
-    "tags": [
-      "agents",
-      "llm",
-      "reinforcement-learning"
-    ]
-  },
-  {
-    "id": "2603.00719v1",
-    "title": "Keyframe-Guided Structured Rewards for Reinforcement Learning in Long-Horizon Laboratory Robotics",
-    "authors": [
-      "Yibo Qiu",
-      "Shu'ang Sun",
-      "Haoliang Ye",
-      "Ronald X Xu",
-      "Mingzhai Sun"
-    ],
-    "author_count": 5,
-    "summary": "Long-horizon precision manipulation in laboratory automation, such as pipette tip attachment and liquid transfer, requires policies that respect strict procedural logic while operating in continuous, high-dimensional state spaces. However, existing approaches struggle with reward sparsity, multi-stage structural constraints, and noisy or imperfect demonstrations, leading to inefficient exploration and unstable convergence. We propose a Keyframe-Guided Reward Generation Framework that automatically extracts kinematics-aware keyframes from demonstrations, generates stage-wise targets via a di...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-02-28T15:55:31Z",
-    "updated": "2026-02-28T15:55:31Z",
-    "abs_url": "https://arxiv.org/abs/2603.00719v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00719v1",
-    "tags": [
-      "robotics",
-      "reinforcement-learning"
-    ]
-  },
-  {
-    "id": "2603.00718v1",
-    "title": "SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?",
-    "authors": [
-      "Shiqi Chen",
-      "Jingze Gai",
-      "Ruochen Zhou",
-      "Jinghan Zhang",
-      "Tongyao Zhu"
-    ],
-    "author_count": 16,
-    "summary": "Real-world tool-using agents operate over long-horizon workflows with recurring structure and diverse demands, where effective behavior requires not only invoking atomic tools but also abstracting, and reusing higher-level tool compositions. However, existing benchmarks mainly measure instance-level success under static tool sets, offering limited insight into agents' ability to acquire such reusable skills. We address this gap by introducing SkillCraft, a benchmark explicitly stress-test agent ability to form and reuse higher-level tool compositions, where we call Skills. SkillCraft featur...",
-    "categories": [
-      "cs.CL",
-      "cs.SE"
-    ],
-    "published": "2026-02-28T15:44:31Z",
-    "updated": "2026-02-28T15:44:31Z",
-    "abs_url": "https://arxiv.org/abs/2603.00718v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00718v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00694v1",
-    "title": "Wild-Drive: Off-Road Scene Captioning and Path Planning via Robust Multi-modal Routing and Efficient Large Language Model",
-    "authors": [
-      "Zihang Wang",
-      "Xu Li",
-      "Benwu Wang",
-      "Wenkai Zhu",
-      "Xieyuanli Chen"
-    ],
-    "author_count": 10,
-    "summary": "Explainability and transparent decision-making are essential for the safe deployment of autonomous driving systems. Scene captioning summarizes environmental conditions and risk factors in natural language, improving transparency, safety, and human--robot interaction. However, most existing approaches target structured urban scenarios; in off-road environments, they are vulnerable to single-modality degradations caused by rain, fog, snow, and darkness, and they lack a unified framework that jointly models structured scene captioning and path planning. To bridge this gap, we propose Wild-Dri...",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "published": "2026-02-28T15:06:24Z",
-    "updated": "2026-02-28T15:06:24Z",
-    "abs_url": "https://arxiv.org/abs/2603.00694v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00694v1",
-    "tags": [
-      "agents",
-      "efficient-inference",
-      "llm",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00686v1",
-    "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
-    "authors": [
-      "Andrew Zhuoer Feng",
-      "Cunxiang Wang",
-      "Yu Luo",
-      "Bosi Wen",
-      "Yidong Wang"
-    ],
-    "author_count": 12,
-    "summary": "Large Language Models have evolved from single-round generators into long-horizon agents, capable of complex text synthesis scenarios. However, current evaluation frameworks lack the ability to assess the actual synthesis operations, such as outlining, drafting, and editing. Consequently, they fail to evaluate the actual and detailed capabilities of LLMs. To bridge this gap, we introduce RAVEL, an agentic framework that enables the LLM testers to autonomously plan and execute typical synthesis operations, including outlining, drafting, reviewing, and refining. Complementing this framework, ...",
-    "categories": [
-      "cs.CL"
-    ],
-    "published": "2026-02-28T14:47:34Z",
-    "updated": "2026-02-28T14:47:34Z",
-    "abs_url": "https://arxiv.org/abs/2603.00686v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00686v1",
-    "tags": [
-      "agents",
-      "llm"
-    ]
-  },
-  {
-    "id": "2603.00680v1",
-    "title": "MemPO: Self-Memory Policy Optimization for Long-Horizon Agents",
-    "authors": [
-      "Ruoran Li",
-      "Xinghua Zhang",
-      "Haiyang Yu",
-      "Shitong Duan",
-      "Xiang Li"
-    ],
-    "author_count": 10,
-    "summary": "Long-horizon agents face the challenge of growing context size during interaction with environment, which degrades the performance and stability. Existing methods typically introduce the external memory module and look up the relevant information from the stored memory, which prevents the model itself from proactively managing its memory content and aligning with the agent's overarching task objectives. To address these limitations, we propose the self-memory policy optimization algorithm (MemPO), which enables the agent (policy model) to autonomously summarize and manage their memory durin...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T14:43:02Z",
-    "updated": "2026-02-28T14:43:02Z",
-    "abs_url": "https://arxiv.org/abs/2603.00680v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00680v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00676v1",
-    "title": "K^2-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control",
-    "authors": [
-      "Zhe Wu",
-      "Donglin Mo",
-      "Hongjin Lu",
-      "Junliang Xing",
-      "Jianheng Liu"
-    ],
-    "author_count": 10,
-    "summary": "Existing mobile device control agents often perform poorly when solving complex tasks requiring long-horizon planning and precise operations, typically due to a lack of relevant task experience or unfamiliarity with skill execution. We propose K2-Agent, a hierarchical framework that models human-like cognition by separating and co-evolving declarative (knowing what) and procedural (knowing how) knowledge for planning and execution. K2-Agent's high level reasoner is bootstrapped from a single demonstration per task and runs a Summarize-Reflect-Locate-Revise (SRLR) loop to distill and iterati...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T14:33:14Z",
-    "updated": "2026-02-28T14:33:14Z",
-    "abs_url": "https://arxiv.org/abs/2603.00676v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00676v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00656v1",
-    "title": "InfoPO: Information-Driven Policy Optimization for User-Centric Agents",
-    "authors": [
-      "Fanqi Kong",
-      "Jiayi Zhang",
-      "Mingyi Deng",
-      "Chenglin Wu",
-      "Yuyu Luo"
-    ],
-    "author_count": 6,
-    "summary": "Real-world user requests to LLM agents are often underspecified. Agents must interact to acquire missing information and make correct downstream decisions. However, current multi-turn GRPO-based methods often rely on trajectory-level reward computation, which leads to credit assignment problems and insufficient advantage signals within rollout groups. A feasible approach is to identify valuable interaction turns at a fine granularity to drive more targeted learning. To address this, we introduce InfoPO (Information-Driven Policy Optimization), which frames multi-turn interaction as a proces...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T13:58:14Z",
-    "updated": "2026-02-28T13:58:14Z",
-    "abs_url": "https://arxiv.org/abs/2603.00656v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00656v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00651v1",
-    "title": "Exploring 3D Dataset Pruning",
-    "authors": [
-      "Xiaohan Zhao",
-      "Xinyi Shang",
-      "Jiacheng Liu",
-      "Zhiqiang Shen"
-    ],
-    "author_count": 4,
-    "summary": "Dataset pruning has been widely studied for 2D images to remove redundancy and accelerate training, while particular pruning methods for 3D data remain largely unexplored. In this work, we study dataset pruning for 3D data, where its observed common long-tail class distribution nature make optimization under conventional evaluation metrics Overall Accuracy (OA) and Mean Accuracy (mAcc) inherently conflicting, and further make pruning particularly challenging. To address this, we formulate pruning as approximating the full-data expected risk with a weighted subset, which reveals two key erro...",
-    "categories": [
-      "cs.CV",
-      "cs.LG"
-    ],
-    "published": "2026-02-28T13:42:11Z",
-    "updated": "2026-02-28T13:42:11Z",
-    "abs_url": "https://arxiv.org/abs/2603.00651v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00651v1",
-    "tags": [
-      "efficient-inference"
-    ]
-  },
-  {
-    "id": "2603.00628v1",
-    "title": "Validation of Space Robotics in Underwater Environments via Disturbance Robustness Equivalency",
-    "authors": [
-      "Joris Verhagen",
-      "Elias Krantz",
-      "Chelsea Sidrane",
-      "David D\u00f6rner",
-      "Nicola De Carli"
-    ],
-    "author_count": 12,
-    "summary": "We present an experimental validation framework for space robotics that leverages underwater environments to approximate microgravity dynamics. While neutral buoyancy conditions make underwater robotics an excellent platform for space robotics validation, there are still dynamical and environmental differences that need to be overcome. Given a high-level space mission specification, expressed in terms of a Signal Temporal Logic specification, we overcome these differences via the notion of maximal disturbance robustness of the mission. We formulate the motion planning problem such that the ...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-02-28T12:42:24Z",
-    "updated": "2026-02-28T12:42:24Z",
-    "abs_url": "https://arxiv.org/abs/2603.00628v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00628v1",
-    "tags": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00623v1",
-    "title": "TraceSIR: A Multi-Agent Framework for Structured Analysis and Reporting of Agentic Execution Traces",
-    "authors": [
-      "Shu-Xun Yang",
-      "Cunxiang Wang",
-      "Haoke Zhang",
-      "Wenbo Yu",
-      "Lindong Wu"
-    ],
-    "author_count": 15,
-    "summary": "Agentic systems augment large language models with external tools and iterative decision making, enabling complex tasks such as deep research, function calling, and coding. However, their long and intricate execution traces make failure diagnosis and root cause analysis extremely challenging. Manual inspection does not scale, while directly applying LLMs to raw traces is hindered by input length limits and unreliable reasoning. Focusing solely on final task outcomes further discards critical behavioral information required for accurate issue localization. To address these issues, we propose...",
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "published": "2026-02-28T12:33:24Z",
-    "updated": "2026-02-28T12:33:24Z",
-    "abs_url": "https://arxiv.org/abs/2603.00623v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00623v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00615v1",
-    "title": "TGM-VLA: Task-Guided Mixup for Sampling-Efficient and Robust Robotic Manipulation",
-    "authors": [
-      "Fanqi Pu",
-      "Lei Jiang",
-      "Wenming Yang"
-    ],
-    "author_count": 3,
-    "summary": "The performance of robotic imitation learning is fundamentally limited by data quality and training strategies. Prevalent sampling strategies on RLBench suffer from severe keyframe redundancy and imbalanced temporal distribution, leading to inefficient memory usage and unstable optimization. Moreover, reprojecting point clouds onto multi-view images with a black background--while more efficient than voxel-based methods--often causes dark objects to be indistinguishable and hard to manipulate. In this work, we propose a novel holistic framework that significantly improves both model performa...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-02-28T12:16:20Z",
-    "updated": "2026-02-28T12:16:20Z",
-    "abs_url": "https://arxiv.org/abs/2603.00615v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00615v1",
-    "tags": [
-      "efficient-inference",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00601v1",
-    "title": "Theory of Code Space: Do Code Agents Understand Software Architecture?",
-    "authors": [
-      "Grigory Sapunov"
-    ],
-    "author_count": 1,
-    "summary": "AI code agents excel at isolated tasks yet struggle with complex, multi-file software engineering requiring understanding of how dozens of modules relate. We hypothesize these failures stem from inability to construct, maintain, and update coherent architectural beliefs during codebase exploration. We introduce Theory of Code Space (ToCS), a benchmark that evaluates this capability by placing agents in procedurally generated codebases under partial observability, requiring them to build structured belief states over module dependencies, cross-cutting invariants, and design intent. The frame...",
-    "categories": [
-      "cs.SE",
-      "cs.AI"
-    ],
-    "published": "2026-02-28T11:40:17Z",
-    "updated": "2026-02-28T11:40:17Z",
-    "abs_url": "https://arxiv.org/abs/2603.00601v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00601v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00569v1",
-    "title": "TopoEdge: Topology-Grounded Agentic Framework for Edge Networking Code Generation and Repair",
-    "authors": [
-      "Haomin Qi",
-      "Bohan Liu",
-      "Zihan Dai",
-      "Yunkai Gao"
-    ],
-    "author_count": 4,
-    "summary": "TopoEdge is a topology-grounded, edge-deployable framework for end-to-end software-defined networking (SDN) configuration generation and repair, motivated by the brittleness of configuration artefacts under topology variation and by strict operational constraints on latency, privacy, and on-site execution. TopoEdge represents each target topology as a router-level graph and embeds it using a contrastively trained graph neural network (GNN), enabling nearest-neighbour retrieval of a verified reference configuration paired with an executable Python driver (a Topotest/pytest test script that o...",
-    "categories": [
-      "cs.SE",
-      "cs.LG",
-      "cs.NI"
-    ],
-    "published": "2026-02-28T09:36:48Z",
-    "updated": "2026-02-28T09:36:48Z",
-    "abs_url": "https://arxiv.org/abs/2603.00569v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00569v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00555v1",
-    "title": "Planning Method for Skill-Based Control of Robots Using a PLC as Skill Trigger",
-    "authors": [
-      "Andreas Gaugenrieder",
-      "Hari Hara Balasubramaniam",
-      "Jannik M\u00f6hrle",
-      "R\u00fcdiger Daub"
-    ],
-    "author_count": 4,
-    "summary": "Skill-based programming of robots provides a flexible approach for automation. Existing solutions neglect the optimization of motion sequences, leading to inefficiencies in execution. This work introduces a planning method that enhances skill-based robot programming by integrating motion sequence optimization. This optimization leads to a new MoveContinuousSkill. The software for executing the MoveContinuousSkill is implemented on a Programmable Logic Controller and applied across multiple robotic systems. Experimental results demonstrate a significant improvement in execution time through ...",
-    "categories": [
-      "cs.RO"
-    ],
-    "published": "2026-02-28T09:14:25Z",
-    "updated": "2026-02-28T09:14:25Z",
-    "abs_url": "https://arxiv.org/abs/2603.00555v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00555v1",
-    "tags": [
-      "agents",
-      "robotics"
-    ]
-  },
-  {
-    "id": "2603.00540v1",
-    "title": "LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks",
-    "authors": [
-      "Yucheng Zeng",
-      "Weipeng Lu",
-      "Linyun Liu",
-      "Shupeng Li",
-      "Zitian Qu"
-    ],
-    "author_count": 12,
-    "summary": "The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise state-transition objectives. However, this paradigm is bottlenecked by data scarcity, as existing tool-centric reverse-synthesis pipelines fail to capture the rigorous logic of real-world applications. We introduce \\textbf{LOGIGEN}, a logic-driven framework that synthesizes verifiable training data based on three core pillars: \\textbf{Hard-Compiled Policy Grounding}, \\textbf{Logic-Driven Forward Synthesis}, and \\...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T08:35:30Z",
-    "updated": "2026-02-28T08:35:30Z",
-    "abs_url": "https://arxiv.org/abs/2603.00540v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00540v1",
-    "tags": [
-      "agents"
-    ]
-  },
-  {
-    "id": "2603.00532v1",
-    "title": "DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows",
-    "authors": [
-      "Yandong Yan",
-      "Junwei Peng",
-      "Shijie Li",
-      "Chenxi Li",
-      "Yifei Shang"
-    ],
-    "author_count": 10,
-    "summary": "Autonomous agents are increasingly entrusted with complex, long-horizon tasks, ranging from mathematical reasoning to software generation. While agentic workflows facilitate these tasks by decomposing them into multi-step reasoning chains, reliability degrades significantly as the sequence lengthens. Specifically, minor interpretation errors in natural-language instructions tend to compound silently across steps. We term this failure mode accumulated semantic ambiguity. Existing approaches to mitigate this often lack runtime adaptivity, relying instead on static exploration budgets, reactiv...",
-    "categories": [
-      "cs.AI"
-    ],
-    "published": "2026-02-28T08:11:38Z",
-    "updated": "2026-02-28T08:11:38Z",
-    "abs_url": "https://arxiv.org/abs/2603.00532v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.00532v1",
-    "tags": [
-      "agents",
-      "llm"
     ]
   }
 ]
